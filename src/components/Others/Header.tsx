@@ -31,7 +31,7 @@ export default function Header() {
     <header className="flex justify-center relative z-30">
       <div className="container flex justify-between items-center h-24 px-8 lg:px-14">
         <a href="/" className="flex gap-1">
-          <img src="/public/icone-logo.svg" alt="Furniro" />
+          <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/icone-logo.svg" alt="Furniro" />
           <h1 className="font-Montserrat font-bold text-3.5xl">Furniro</h1>
         </a>
 
@@ -42,12 +42,12 @@ export default function Header() {
             hamburgerActive && (
               <div className="flex flex-col gap-9">
                 <a href="/login" className="font-Poppins font-medium flex flex-col gap-1 items-center">
-                  <i><img src="/public/pessoa.svg" alt="login" /></i>
+                  <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/pessoa.svg" alt="login" /></i>
                   Login
                 </a>
 
                 <a href="/cart" className="font-Poppins font-medium flex flex-col gap-1 items-center">
-                  <i><img src="/public/carrinho.svg" alt="cart" /></i>
+                  <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/carrinho.svg" alt="cart" /></i>
                   Itens
                 </a>
               </div>
@@ -68,15 +68,15 @@ export default function Header() {
         {
           !hamburgerActive && (
             <div className="flex gap-9">
-              <a href="/login"><i><img src="/public/pessoa.svg" alt="login" /></i></a>
-              <a href="/cart"><i><img src="/public/carrinho.svg" alt="cart" /></i></a>
+              <a href="/login"><i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/pessoa.svg" alt="login" /></i></a>
+              <a href="/cart"><i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/carrinho.svg" alt="cart" /></i></a>
             </div>
           )
         }
 
         {hamburgerActive && (
           <button onClick={() => setNavBarActive(true)}>
-            <img src="/public/menu-icon.svg" alt="menu" />
+            <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/menu-icon.svg" alt="menu" />
           </button>
         )}
       </div>
