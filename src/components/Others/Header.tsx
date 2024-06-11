@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react"
-
-type NavItem = {
-  text: string,
-  link: string,
-}
+import { listItems } from "../../mocks/headerMocks";
 
 export default function Header() {
   const [hamburgerActive, setHamburgerActive] = useState(false);
@@ -30,8 +26,6 @@ export default function Header() {
       window.removeEventListener("resize", handleResize)
     }
   }, [navBarActive])
-
-  const listItems: NavItem[] = [{text: 'Home', link: '/'}, {text: 'Shop', link: '/shop'}, {text: 'About', link: '/about'}, {text: 'Contact', link: '/contact'}]
 
   return (
     <header className="flex justify-center relative z-30">

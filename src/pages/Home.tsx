@@ -1,7 +1,9 @@
-import React from 'react'
+import { HomeFirstSection } from '../components/Home/HomeFirstSection'
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <main>
+      <HomeFirstSection />
+    </main>
   )
 }

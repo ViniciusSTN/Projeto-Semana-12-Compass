@@ -12,10 +12,11 @@ export default {
         "gray200": "#616161",
         "gray300": "#666666",
         "gray400": "#D9D9D9",
-        "gray500": "#FFF3E3",
+        "off-white": "#FFF3E3",
         "darkgreen": "#3A3A3A",
         "goldenbrown": "#B88E2F",
         "lightgray": "#F4F5F7",
+        "lightgray2": "#EEEEEE",
         "darkcharcoal": "#333333",
         "silver": "#B0B0B0",
         "purple-blue": "#816DFA",
@@ -30,10 +31,11 @@ export default {
         "red-strong": "#FF0000"
       },
       screens: {
-        "3xl": "1440px",
+        "2xl": "1440px",
       },
       fontSize: {
         "3.5xl": [ "2.125rem"],
+        "5.5xl": [ "3.25rem", { lineHeight: "65px" }],
       },
       padding: {
         '1/8': '12%',
@@ -41,6 +43,14 @@ export default {
         '1/3': '33.333333%',
         '1/2': '50%',
         'full': '100%',
+      },
+      spacing: {
+        "643px": "40.2rem",
+        "716px": "44.75rem",
+        "4.5": "4.5rem"
+      },
+      backgroundImage: {
+        "home-fsection": "url('/src/assets/home-principal-section-bg.png')",
       },
     },
   },
