@@ -52,7 +52,7 @@ export default {
         "1184px": "74rem",
       },
       backgroundImage: {
-        "home-fsection": "url('/src/assets/home-principal-section-bg.png')",
+        "home-fsection": "url('https://project3-images-storage.s3.us-east-2.amazonaws.com/static/home-principal-section-bg.png')",
       },
     },
   },
