@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  fontFamily: {
-    Montserrat: ["Montserrat", "sans-serif"],
-    Poppins: ["Poppins", "sans-serif"],
-  },
   theme: {
+    fontFamily: {
+      Montserrat: ["Montserrat", "sans-serif"],
+      Poppins: ["Poppins", "sans-serif"],
+    },
     extend: {
       colors: {
         "gray100": "#898989",
@@ -31,6 +31,16 @@ export default {
       },
       screens: {
         "3xl": "1440px",
+      },
+      fontSize: {
+        "3.5xl": [ "2.125rem"],
+      },
+      padding: {
+        '1/8': '12%',
+        '1/4': '25%',
+        '1/3': '33.333333%',
+        '1/2': '50%',
+        'full': '100%',
       },
     },
   },
