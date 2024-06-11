@@ -34,6 +34,7 @@ export default {
         "2xl": "1440px",
       },
       fontSize: {
+        "3.3xl": [ "2rem"],
         "3.5xl": [ "2.125rem"],
         "5.5xl": [ "3.25rem", { lineHeight: "65px" }],
       },
@@ -45,9 +46,10 @@ export default {
         'full': '100%',
       },
       spacing: {
+        "4.5": "4.5rem",
         "643px": "40.2rem",
         "716px": "44.75rem",
-        "4.5": "4.5rem"
+        "1184px": "74rem",
       },
       backgroundImage: {
         "home-fsection": "url('/src/assets/home-principal-section-bg.png')",
