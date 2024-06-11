@@ -29,6 +29,9 @@ export default {
         "red-accents": "#E97171",
         "red-strong": "#FF0000"
       },
+      screens: {
+        "3xl": "1440px",
+      },
     },
   },
   plugins: [],
