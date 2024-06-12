@@ -48,6 +48,7 @@ export default {
         'full': '100%',
       },
       spacing: {
+        "34px": "2.125rem",
         "4.5": "4.5rem",
         "285px": "17.813rem",
         "300px": "18.75rem", 
@@ -67,6 +68,9 @@ export default {
       gridTemplateColumns: {
         'responsive': 'repeat(auto-fill, minmax(285px, 1fr))',
       },
+      boxShadow: {
+        'mdn': '0px 4px 15px 0px rgba(222, 222, 222, 1)',
+      }
     },
   },
   plugins: [],
