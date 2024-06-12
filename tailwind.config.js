@@ -24,7 +24,6 @@ export default {
         "platinum": "#D8D8D8",
         "aluminum": "#C4C4C4",
         "antiquewhite": "#FCF8F3",
-        "primary-yellow": "#B88E2F",
         "secondary-yellow": "#FFC700",
         "third-yellow": "#FFDA5B",
         "green-accents": "#2EC1AC",
@@ -35,6 +34,7 @@ export default {
         "2xl": "1440px",
       },
       fontSize: {
+        "2.5xl": [ "1.75rem" ],
         "3.3xl": [ "2rem"],
         "3.5xl": [ "2.125rem"],
         "4.5xl": [ "2.5rem"],
@@ -50,11 +50,16 @@ export default {
       spacing: {
         "4.5": "4.5rem",
         "285px": "17.813rem",
-        "300px": "18.75rem",
+        "300px": "18.75rem", 
+        "404px": "25.25rem", 
+        "582px": "36.375rem", 
         "643px": "40.2rem",
         "716px": "44.75rem",
         "1184px": "74rem",
         "1236px": "77.25rem",
+      },
+      lineHeight: {
+        "12": "3rem"
       },
       backgroundImage: {
         "home-fsection": "url('https://project3-images-storage.s3.us-east-2.amazonaws.com/static/home-principal-section-bg.png')",
