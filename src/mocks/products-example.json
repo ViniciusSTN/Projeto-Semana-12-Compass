@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": "ss001",
+      "title": "Modern White Sofa",
+      "brief_description": "A modern and confortable sofa",
+      "price": 2500,
+      "discount_percentage": 30,
+      "new": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "sofas",
+      "tags": ["sofa", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    }
+  ]
+}
