@@ -14,6 +14,7 @@ export default {
         "gray400": "#D9D9D9",
         "gray2": "#9F9F9F",
         "off-white": "#FFF3E3",
+        "off-white200": "#F9F1E7",
         "darkgreen": "#3A3A3A",
         "goldenbrown": "#B88E2F",
         "lightgray": "#F4F5F7",
@@ -52,18 +53,21 @@ export default {
         "4.5": "4.5rem",
         "285px": "17.813rem",
         "300px": "18.75rem", 
+        "316px": "19.75rem", 
         "404px": "25.25rem", 
         "582px": "36.375rem", 
         "643px": "40.2rem",
         "716px": "44.75rem",
         "1184px": "74rem",
         "1236px": "77.25rem",
+        "1440px": "90rem",
       },
       lineHeight: {
         "12": "3rem"
       },
       backgroundImage: {
         "home-fsection": "url('https://project3-images-storage.s3.us-east-2.amazonaws.com/static/home-principal-section-bg.png')",
+        "shop-fsection": "url('https://project3-images-storage.s3.us-east-2.amazonaws.com/static/capa-shop.png')"
       },
       gridTemplateColumns: {
         'responsive': 'repeat(auto-fill, minmax(285px, 1fr))',
