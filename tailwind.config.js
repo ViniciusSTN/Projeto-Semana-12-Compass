@@ -12,6 +12,7 @@ export default {
         "gray200": "#616161",
         "gray300": "#666666",
         "gray400": "#D9D9D9",
+        "gray2": "#9F9F9F",
         "off-white": "#FFF3E3",
         "darkgreen": "#3A3A3A",
         "goldenbrown": "#B88E2F",
@@ -36,6 +37,7 @@ export default {
       fontSize: {
         "3.3xl": [ "2rem"],
         "3.5xl": [ "2.125rem"],
+        "4.5xl": [ "2.5rem"],
         "5.5xl": [ "3.25rem", { lineHeight: "65px" }],
       },
       padding: {
@@ -47,12 +49,18 @@ export default {
       },
       spacing: {
         "4.5": "4.5rem",
+        "285px": "17.813rem",
+        "300px": "18.75rem",
         "643px": "40.2rem",
         "716px": "44.75rem",
         "1184px": "74rem",
+        "1236px": "77.25rem",
       },
       backgroundImage: {
         "home-fsection": "url('https://project3-images-storage.s3.us-east-2.amazonaws.com/static/home-principal-section-bg.png')",
+      },
+      gridTemplateColumns: {
+        'responsive': 'repeat(auto-fill, minmax(285px, 1fr))',
       },
     },
   },
