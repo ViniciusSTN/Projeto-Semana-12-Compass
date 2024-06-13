@@ -29,7 +29,7 @@ export const ShopFiltersSection = () => {
             <div className="text-gray2 h-14 w-14 bg-white flex items-center justify-center"></div>
           </p>
 
-          <p className="font-Poppins font-normal text-xl mr-4">Short by</p>
+          <p className="font-Poppins font-normal text-xl mr-4">Sort by</p>
           <select className="font-Poppins font-normal text-xl w-44 h-14 px-7 appearance-none focus:outline-none">
             <option value="default">Default</option>
           </select>
