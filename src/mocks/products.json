@@ -34,7 +34,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "bedroom",
       "tags": ["sofa", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -76,7 +76,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "livingRoom",
       "tags": ["sofa", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -118,7 +118,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "kitchen",
       "tags": ["sofa", "home", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -160,7 +160,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "bedroom",
       "tags": ["sofa", "home", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -202,7 +202,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "bedroom",
       "tags": ["sofa", "home", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -244,7 +244,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "livingRoom",
       "tags": ["sofa", "home", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -286,7 +286,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "bedroom",
       "tags": ["sofa", "home", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -328,7 +328,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "bedroom",
       "tags": ["sofa", "home", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -370,7 +370,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "bedroom",
       "tags": ["sofa", "home", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -412,7 +412,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "bedroom",
       "tags": ["sofa", "home", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -454,7 +454,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "kitchen",
       "tags": ["sofa", "home", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
@@ -496,7 +496,973 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "kitchen",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "sku": "ss001",
+      "title": "Modern White Sofa",
+      "brief_description": "A modern and confortable sofa",
+      "price": 2500,
+      "discount_percentage": 30,
+      "new": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "sku": "ss002",
+      "title": "Modern White Sofa 2",
+      "brief_description": "A modern and confortable sofa 2",
+      "price": 2500,
+      "discount_percentage": 30,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "livingRoom",
+      "tags": ["sofa", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "sku": "ss003",
+      "title": "Modern White Sofa 3",
+      "brief_description": "A modern and confortable sofa 3",
+      "price": 2500,
+      "discount_percentage": 0,
+      "new": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "kitchen",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "sku": "ss004",
+      "title": "Modern White Sofa 4",
+      "brief_description": "A modern and confortable sofa 4",
+      "price": 2500,
+      "discount_percentage": 50,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "sku": "ss005",
+      "title": "Modern White Sofa 5",
+      "brief_description": "A modern and confortable sofa 5",
+      "price": 2500,
+      "discount_percentage": 10,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "sku": "ss006",
+      "title": "Modern White Sofa 6",
+      "brief_description": "A modern and confortable sofa 6",
+      "price": 2500,
+      "discount_percentage": 0,
+      "new": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "livingRoom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "sku": "ss007",
+      "title": "Modern White Sofa 7",
+      "brief_description": "A modern and confortable sofa 7",
+      "price": 2500,
+      "discount_percentage": 20,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "sku": "ss008",
+      "title": "Modern White Sofa 8",
+      "brief_description": "A modern and confortable sofa 8",
+      "price": 2500,
+      "discount_percentage": 0,
+      "new": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "sku": "ss009",
+      "title": "Modern White Sofa 9",
+      "brief_description": "A modern and confortable sofa 9",
+      "price": 2500,
+      "discount_percentage": 30,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "sku": "ss010",
+      "title": "Modern White Sofa 10",
+      "brief_description": "A modern and confortable sofa 10",
+      "price": 2500,
+      "discount_percentage": 40,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "sku": "ss011",
+      "title": "Modern White Sofa 11",
+      "brief_description": "A modern and confortable sofa 11",
+      "price": 2500,
+      "discount_percentage": 0,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "kitchen",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "sku": "ss012",
+      "title": "Modern White Sofa 12",
+      "brief_description": "A modern and confortable sofa 12",
+      "price": 2500,
+      "discount_percentage": 15,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "kitchen",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "sku": "ss001",
+      "title": "Modern White Sofa",
+      "brief_description": "A modern and confortable sofa",
+      "price": 2500,
+      "discount_percentage": 30,
+      "new": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "sku": "ss002",
+      "title": "Modern White Sofa 2",
+      "brief_description": "A modern and confortable sofa 2",
+      "price": 2500,
+      "discount_percentage": 30,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "livingRoom",
+      "tags": ["sofa", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 27,
+      "sku": "ss003",
+      "title": "Modern White Sofa 3",
+      "brief_description": "A modern and confortable sofa 3",
+      "price": 2500,
+      "discount_percentage": 0,
+      "new": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "kitchen",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "sku": "ss004",
+      "title": "Modern White Sofa 4",
+      "brief_description": "A modern and confortable sofa 4",
+      "price": 2500,
+      "discount_percentage": 50,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "sku": "ss005",
+      "title": "Modern White Sofa 5",
+      "brief_description": "A modern and confortable sofa 5",
+      "price": 2500,
+      "discount_percentage": 10,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "sku": "ss006",
+      "title": "Modern White Sofa 6",
+      "brief_description": "A modern and confortable sofa 6",
+      "price": 2500,
+      "discount_percentage": 0,
+      "new": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "livingRoom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 31,
+      "sku": "ss007",
+      "title": "Modern White Sofa 7",
+      "brief_description": "A modern and confortable sofa 7",
+      "price": 2500,
+      "discount_percentage": 20,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "sku": "ss008",
+      "title": "Modern White Sofa 8",
+      "brief_description": "A modern and confortable sofa 8",
+      "price": 2500,
+      "discount_percentage": 0,
+      "new": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 33,
+      "sku": "ss009",
+      "title": "Modern White Sofa 9",
+      "brief_description": "A modern and confortable sofa 9",
+      "price": 2500,
+      "discount_percentage": 30,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 34,
+      "sku": "ss010",
+      "title": "Modern White Sofa 10",
+      "brief_description": "A modern and confortable sofa 10",
+      "price": 2500,
+      "discount_percentage": 40,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "bedroom",
+      "tags": ["sofa", "home", "shop"],
+      "images": [
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757039.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757065.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "sku": "ss011",
+      "title": "Modern White Sofa 11",
+      "brief_description": "A modern and confortable sofa 11",
+      "price": 2500,
+      "discount_percentage": 0,
+      "new": false,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+      "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "stars": 4.5,
+      "reviews": 5,
+      "availability": [
+        {
+          "size": "l",
+          "color": "#816DFA",
+          "amount": 10
+        },
+        {
+          "size": "l",
+          "color": "#000000",
+          "amount": 4
+        },
+        {
+          "size": "xl",
+          "color": "#000000",
+          "amount": 4
+        }
+      ],
+      "types": {
+        "sizes": ["l", "xl", "xs"],
+        "colors": ["#816DFA", "#000000", "#B88E2F"]
+      },
+      "category": "kitchen",
       "tags": ["sofa", "home", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
