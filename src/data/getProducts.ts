@@ -32,11 +32,11 @@ export async function getProductById(path: string, id: number): Promise<ProductW
 export async function getProductsByCategories(path: string, categories: string[]): Promise<ProductWithPriceSchema[] | null> {
   try {
     const products = await getAllProducts(path)
-    
+
     if (products) {
-      const filteredProductsByCategories: ProductWithPriceSchema[] = products.filter((product) => {
+      const filteredProductsByCategories = products.filter((product) => {
         return categories.includes(product.category)
-      })
+      });
       return filteredProductsByCategories
     }
     return null

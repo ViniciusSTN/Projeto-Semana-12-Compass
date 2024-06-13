@@ -34,7 +34,7 @@
         "sizes": ["l", "xl", "xs"],
         "colors": ["#816DFA", "#000000", "#B88E2F"]
       },
-      "category": "sofas",
+      "category": "bedroom",
       "tags": ["sofa", "shop"],
       "images": [
         "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/ModernWhiteCouch/pexels-olly-3757055.jpg",
