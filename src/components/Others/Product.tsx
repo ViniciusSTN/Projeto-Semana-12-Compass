@@ -1,7 +1,10 @@
 import { useState } from 'react'
-import { ProductComponentSchema } from '../../types/productComponentSchemas'
+import { ProductSchema } from '../../types/productComponentSchemas'
+import { useDispatch } from 'react-redux'
+import { setCartItem } from '../../reducers/cartReducer'
+import { SentCartItemSchema } from '../../types/cartReducerSchemas'
 
-export const Product: ProductComponentSchema = ({
+export const Product = ({
   images,
   discount_percentage,
   new: isNew,
@@ -9,17 +12,31 @@ export const Product: ProductComponentSchema = ({
   brief_description,
   finalPrice,
   price,
-}) => {
+  id,
+}: ProductSchema ) => {
   const [hover, setHover] = useState(false)
+
+  const dispatch = useDispatch()
+
+  function handleAddItemToCart() {
+    const item: SentCartItemSchema = {
+      id,
+      title,
+      finalPrice,
+      amount: 1,
+      image: images[0],
+    }
+    dispatch(setCartItem(item))
+  }
 
   return (
     <div className="w-285px relative" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
 
-      <div className={`absolute bg-darkgreen top-0 bottom-0 right-0 left-0 z-10 transition-opacity duration-300 ${hover ? 'opacity-70 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}></div>
+      <a href={`/product/${id}`} className={`absolute bg-darkgreen top-0 bottom-0 right-0 left-0 z-10 transition-opacity duration-300 ${hover ? 'opacity-70 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}></a>
 
       <div className={`font-Poppins font-semibold absolute z-20 top-1/2 transform -translate-y-1/2 flex flex-col items-center w-full transition-opacity duration-300 ${hover ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
 
-        <button className='text-goldenbrown bg-white w-52 h-12 mb-6'>Add to cart</button>
+        <button className='text-goldenbrown bg-white w-52 h-12 mb-6' onClick={handleAddItemToCart}>Add to cart</button>
 
         <div className='text-white flex gap-5'>
           <button className='flex items-center gap-1'>

@@ -109,6 +109,7 @@ export const ShopProducts = ({ itemsPerPage }: ShopSectionsProps) => {
                 new={product.new}
                 images={product.images}
                 brief_description={product.brief_description}
+                id={product.id}
               />
             </div>
           ))}
