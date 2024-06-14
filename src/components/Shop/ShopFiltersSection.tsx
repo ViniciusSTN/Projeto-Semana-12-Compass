@@ -3,6 +3,7 @@ import { selectSortFilter, selectTypeFilter } from "../../reducers/filterReducer
 import { useState } from "react"
 import { RootState } from "../../types/reducerSchema"
 import { ShopSectionsProps } from "../../types/shopSchemas"
+import { TitleSection } from "../Others/TitleSection"
 
 export const ShopFiltersSection = ({ itemsPerPage }: ShopSectionsProps) => {
   const [filterActive, setFilterActive] = useState<boolean>(false)
@@ -51,14 +52,7 @@ export const ShopFiltersSection = ({ itemsPerPage }: ShopSectionsProps) => {
 
   return (
     <section className="max-w-1440px mx-auto font-Poppins mb-14">
-      <div className="bg-shop-fsection h-316px flex flex-col justify-center items-center relative">
-        <h2 className="font-medium text-5xl mb-2">Shop</h2>
-        <div className="flex gap-2 absolute bottom-24">
-          <a href="/" className="font-medium">Home</a>
-          <span className="font-medium">&gt;</span>
-          <a href="/shop" className="font-light">Shop</a>
-        </div>
-      </div>
+      <TitleSection />
 
       <div className="h-24 bg-off-white200 flex justify-between items-center px-24">
         <div className="flex items-center gap-6">

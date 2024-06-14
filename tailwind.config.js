@@ -53,9 +53,11 @@ export default {
       spacing: {
         "34px": "2.125rem",
         "4.5": "4.5rem",
+        "76px": "4.75rem",
         "285px": "17.813rem",
         "300px": "18.75rem", 
         "316px": "19.75rem", 
+        "392px": "24.5rem", 
         "404px": "25.25rem", 
         "500px": "31.25rem", 
         "540px": "33.75rem", 
@@ -72,7 +74,7 @@ export default {
       },
       backgroundImage: {
         "home-fsection": "url('https://project3-images-storage.s3.us-east-2.amazonaws.com/static/home-principal-section-bg.png')",
-        "shop-fsection": "url('https://project3-images-storage.s3.us-east-2.amazonaws.com/static/capa-shop.png')"
+        "title-section": "url('https://project3-images-storage.s3.us-east-2.amazonaws.com/static/capa-shop.png')"
       },
       gridTemplateColumns: {
         'responsive': 'repeat(auto-fill, minmax(285px, 1fr))',

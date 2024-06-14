@@ -22,8 +22,9 @@ export const Product = ({
     const item: SentCartItemSchema = {
       id,
       title,
-      finalPrice,
-      amount: 1,
+      discount_percentage,
+      quantity: 1,
+      price,
       image: images[0],
     }
     dispatch(setCartItem(item))

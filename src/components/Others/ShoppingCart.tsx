@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
-import { ShoppingCartProps } from "../../types/ShoppingCartSchemas"
 import { RootState } from "../../types/reducerSchema"
 import { useSelector } from "react-redux"
 import { useDispatch } from "react-redux"
 import { deleteCartItem } from "../../reducers/cartReducer"
+import { ShoppingCartProps } from "../../types/shoppingCartSchemas"
 
 export const ShoppingCart = ({ children }: ShoppingCartProps) => {
   const [overlay, setOverlay] = useState<boolean>(false)
@@ -60,9 +60,9 @@ export const ShoppingCart = ({ children }: ShoppingCartProps) => {
                         <div className="flex flex-col gap-2 mr-12">
                           <h4 className="font-normal">{item.title}</h4>
                           <div className="flex gap-4 items-center">
-                            <span className="font-light">{item.amount}</span>
+                            <span className="font-light">{item.quantity}</span>
                             <span className="font-light text-xs">x</span>
-                            <span className="text-goldenbrown font-medium text-xs">Rs. {item.finalPrice}</span>
+                            <span className="text-goldenbrown font-medium text-xs">Rs. {item.price}</span>
                           </div>
                         </div>
                         <button onClick={() => handleDeleteItem(item.id)}>
