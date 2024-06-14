@@ -1,4 +1,4 @@
-import { AdvantagesSection } from "../components/Shop/AdvantagesSection"
+import { AdvantagesSection } from "../components/Others/AdvantagesSection"
 import { ShopFiltersSection } from "../components/Shop/ShopFiltersSection"
 import { ShopProducts } from "../components/Shop/ShopProducts"
 

@@ -1,10 +1,11 @@
-import { DELETE_CART_ITEM, SET_CART_ITEM } from "../reducers/cartReducer"
+import { DELETE_CART_ITEM, REDUCE_CART_ITEM, SET_CART_ITEM } from "../reducers/cartReducer"
 
 export type SentCartItemSchema = {
   id: number
   title: string
-  finalPrice: number
-  amount: number
+  price: number
+  discount_percentage: number
+  quantity: number
   image: string
 }
 
@@ -16,6 +17,11 @@ export type CartStateSchema = {
 
 export interface SetCartItemAction {
   type: typeof SET_CART_ITEM
+  payload: SentCartItemSchema
+}
+
+export interface ReduceCartItemAction {
+  type: typeof REDUCE_CART_ITEM
   payload: SentCartItemSchema
 }
 
