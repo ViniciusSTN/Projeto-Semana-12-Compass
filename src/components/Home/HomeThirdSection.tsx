@@ -38,6 +38,7 @@ export const HomeThirdSection = () => {
                     new={product.new}
                     price={product.price}
                     title={product.title}
+                    id={product.id}
                   />
                 </div>
               ))

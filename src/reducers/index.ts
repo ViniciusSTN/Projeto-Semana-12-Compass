@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
 import { filterReducer } from './filterReducer'
+import { cartReducer } from './cartReducer'
 
-// Combina todos os reducers em um único rootReducer
 const rootReducer = combineReducers({
   filters: filterReducer,
-  // Outros reducers...
+  shoppingCart: cartReducer,
 })
 
 export default rootReducer

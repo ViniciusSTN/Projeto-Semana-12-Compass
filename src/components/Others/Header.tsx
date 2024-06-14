@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { listItems } from "../../mocks/headerMocks";
+import { ShoppingCart } from "./ShoppingCart";
 
 export default function Header() {
   const [hamburgerActive, setHamburgerActive] = useState(false);
@@ -29,7 +30,7 @@ export default function Header() {
 
   return (
     <header className="flex justify-center relative z-30">
-      <div className="container flex justify-between items-center h-24 px-8 lg:px-14">
+      <div className="container flex justify-between items-center h-24 px-8 lg:px-14 relative">
         <a href="/" className="flex gap-1">
           <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/icone-logo.svg" alt="Furniro" />
           <h1 className="font-Montserrat font-bold text-3.5xl">Furniro</h1>
@@ -46,10 +47,7 @@ export default function Header() {
                   Login
                 </a>
 
-                <a href="/cart" className="font-Poppins font-medium flex flex-col gap-1 items-center">
-                  <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/carrinho.svg" alt="cart" /></i>
-                  Itens
-                </a>
+                <ShoppingCart>Items</ShoppingCart>
               </div>
             )
           }
@@ -69,7 +67,7 @@ export default function Header() {
           !hamburgerActive && (
             <div className="flex gap-9">
               <a href="/login"><i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/pessoa.svg" alt="login" /></i></a>
-              <a href="/cart"><i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/carrinho.svg" alt="cart" /></i></a>
+              <ShoppingCart />
             </div>
           )
         }

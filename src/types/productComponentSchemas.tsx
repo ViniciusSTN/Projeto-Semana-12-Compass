@@ -6,6 +6,5 @@ export type ProductSchema = {
   brief_description: string;
   finalPrice: number;
   price: number;
+  id: number;
 }
-
-export type ProductComponentSchema = React.FC<ProductSchema>;
