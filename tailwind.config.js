@@ -5,7 +5,7 @@ export default {
     fontFamily: {
       Montserrat: ["Montserrat", "sans-serif"],
       Poppins: ["Poppins", "sans-serif"],
-    },
+    }, 
     extend: {
       colors: {
         "gray100": "#898989",
