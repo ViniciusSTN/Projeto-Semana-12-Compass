@@ -3,7 +3,7 @@ export const Footer = () => {
     <footer className="border-t">
       <div className="container flex flex-wrap justify-between px-24 py-12 border-b mx-auto">
         <div className="max-w-72 flex flex-col gap-14">
-          <h4 className="font-Poppins font-bold text-2xl">Funiro.</h4>
+          <h4 className="font-Poppins font-bold text-2xl">Furniro.</h4>
           <div className="font-Poppins font-normal text-gray2">
             <p>400 University Drive Suite 200 Coral Gables,</p>
             <p>FL 33134 USA</p>

@@ -2,11 +2,13 @@ import { useEffect, useState } from "react"
 import { getProductsByTags } from "../../data/getProducts"
 import { ProductWithPriceSchema } from "../../types/productSchemas"
 import { Product } from "../Others/Product"
+import { Loading } from "../Others/Loading"
 
 const PATH_URL: string = import.meta.env.VITE_PRODUCTS_DATA_API_PATH
 
 export const HomeThirdSection = () => {
   const [products, setProducts] = useState<ProductWithPriceSchema[]>([])
+  const [loading, setLoading] = useState<boolean>(true)
 
   useEffect(() => {
     async function fetchProducts() {
@@ -15,6 +17,7 @@ export const HomeThirdSection = () => {
         const topEight = response.splice(0, 8)
         setProducts(topEight)
       }
+      setLoading(false)
     }
   
     fetchProducts()
@@ -25,9 +28,15 @@ export const HomeThirdSection = () => {
       <div className="max-w-1236px mx-auto">
         <h3 className="font-Poppins font-bold text-4.5xl text-center mb-8">Our Products</h3>
   
+        {loading && (
+          <div className='relative h-96'>
+            <Loading />
+          </div>
+        )}
+
         <div className="grid grid-cols-responsive gap-8 mb-8">
           {
-            products.length > 0 && (
+            !loading && products.length > 0 && (
               products.map((product) => (
                 <div key={product.id} className="flex justify-center">
                   <Product 
