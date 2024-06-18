@@ -1,4 +1,4 @@
-import { FilterReducerActionPropsSchema, FilterStateSchema} from "../types/filterReducerSchemas"
+import { FilterReducerFunctionSchema, FilterStateSchema} from "../types/filterReducerSchemas"
 
 export const SELECT_SORT_FILTER = 'SELECT_SORT_FILTER'
 export const SELECT_TYPE_FILTER = 'SELECT_TYPE_FILTER'
@@ -14,7 +14,7 @@ const initialState: FilterStateSchema = {
   amountShowing: 0,
 }
 
-export const filterReducer = (state = initialState, action: FilterReducerActionPropsSchema): FilterStateSchema => {
+export const filterReducer: FilterReducerFunctionSchema = (state = initialState, action) => {
   switch (action.type) {
     case SELECT_SORT_FILTER:
       return {

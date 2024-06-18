@@ -9,11 +9,15 @@ export type SentCartItemSchema = {
   image: string
 }
 
-export type CartItemSchema = SentCartItemSchema & { total: number };
+export type CartItemSchema = SentCartItemSchema & { total: number }
+
+export type CartReducerActionPropsSchema = SetCartItemAction | DeleteCartItemAction | ReduceCartItemAction
 
 export type CartStateSchema = {
   cartItems: CartItemSchema[]
 }
+
+export type CartReducerFunctionSchema = (state: CartStateSchema, action: CartReducerActionPropsSchema) => CartStateSchema
 
 export interface SetCartItemAction {
   type: typeof SET_CART_ITEM
