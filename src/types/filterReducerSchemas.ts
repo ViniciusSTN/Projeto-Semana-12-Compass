@@ -8,6 +8,10 @@ export type FilterStateSchema = {
   amountShowing: number
 }
 
+export type FilterReducerActionPropsSchema = SelectSortFilterActionSchema | SelectTypeFilterActionSchema | SetResultsActionSchema | SetCurrentPageActionSchema | SetAmountShowingActionSchema
+
+export type FilterReducerFunctionSchema = (state: FilterStateSchema, action: FilterReducerActionPropsSchema) => FilterStateSchema
+
 export interface SelectSortFilterActionSchema {
   type: typeof SELECT_SORT_FILTER
   payload: string
@@ -32,5 +36,3 @@ export interface SetAmountShowingActionSchema {
   type: typeof SET_AMOUNT_SHOWING
   payload: number
 }
-
-export type FilterReducerActionPropsSchema = SelectSortFilterActionSchema | SelectTypeFilterActionSchema | SetResultsActionSchema | SetCurrentPageActionSchema | SetAmountShowingActionSchema

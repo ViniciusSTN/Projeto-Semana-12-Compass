@@ -1,70 +1,41 @@
-import { CartStateSchema, DeleteCartItemAction, ReduceCartItemAction, SentCartItemSchema, SetCartItemAction } from "../types/cartReducerSchemas"
+import { CartReducerFunctionSchema, CartStateSchema, SentCartItemSchema } from "../types/cartReducerSchemas"
 
 export const SET_CART_ITEM = 'SET_CART_ITEM'
 export const DELETE_CART_ITEM = 'DELETE_CART_ITEM'
 export const REDUCE_CART_ITEM = 'REDUCE_CART_ITEM'
 
-const loadCartFromLocalStorage = (): CartStateSchema => {
-  try {
-    const serializedState = localStorage.getItem('cartState')
-    return serializedState ? JSON.parse(serializedState) : { cartItems: [] }
-  } catch (err) {
-    console.log(err)
-    return { cartItems: [] }
-  }
-}
+const initialState: CartStateSchema = { cartItems: [] }
 
-const initialState: CartStateSchema = loadCartFromLocalStorage()
-
-const saveCartToLocalStorage = (state: CartStateSchema) => {
-  try {
-    const serializedState = JSON.stringify(state)
-    localStorage.setItem('cartState', serializedState)
-  } catch (err) {
-    console.log(err)
-  }
-}
-
-export const cartReducer = (state = initialState, action: SetCartItemAction | DeleteCartItemAction | ReduceCartItemAction): CartStateSchema => {
+export const cartReducer: CartReducerFunctionSchema = (state = initialState, action) => {
   switch (action.type) {
     case SET_CART_ITEM: {
       const existingItemIndex = state.cartItems.findIndex(item => item.id === action.payload.id)
 
       if (existingItemIndex >= 0) {
-        const updatedCartItems = state.cartItems.map((item, index) => index === existingItemIndex ? { ...item, quantity: item.quantity + action.payload.quantity, total: (item.quantity + action.payload.quantity) * item.price } : item)
-
-        const newState = { ...state, cartItems: updatedCartItems }
-        saveCartToLocalStorage(newState)
-        return newState
+        const updatedCartItems = state.cartItems.map((item, index) => 
+          index === existingItemIndex ? { ...item, quantity: item.quantity + action.payload.quantity, total: (item.quantity + action.payload.quantity) * item.price } : item
+        )
+        return { ...state, cartItems: updatedCartItems }
       } else {
-        const newItem = {
-          ...action.payload,
-          total: action.payload.quantity * action.payload.price,
-        }
+        const newItem = { ...action.payload, total: action.payload.quantity * action.payload.price }
         const updatedCartItems = [...state.cartItems, newItem]
-        
-        const newState = { ...state, cartItems: updatedCartItems }
-        saveCartToLocalStorage(newState)
-        return newState
+        return { ...state, cartItems: updatedCartItems }
       }
     }
     case REDUCE_CART_ITEM: {
       const existingItemIndex = state.cartItems.findIndex(item => item.id === action.payload.id)
 
       if (existingItemIndex >= 0) {
-        const updatedCartItems = state.cartItems.map((item, index) => index === existingItemIndex ? { ...item, quantity: item.quantity > 1 ? item.quantity - 1 : 1, total: (item.quantity > 1 ? item.quantity - 1 : 1) * item.price } : item)
-
-        const newState = { ...state, cartItems: updatedCartItems }
-        saveCartToLocalStorage(newState)
-        return newState
+        const updatedCartItems = state.cartItems.map((item, index) => 
+          index === existingItemIndex ? { ...item, quantity: item.quantity > 1 ? item.quantity - 1 : 1, total: (item.quantity > 1 ? item.quantity - 1 : 1) * item.price } : item
+        )
+        return { ...state, cartItems: updatedCartItems }
       }
       return state
     }
     case DELETE_CART_ITEM: {
       const updatedCartItems = state.cartItems.filter(item => item.id !== action.payload)
-      const newState = { ...state, cartItems: updatedCartItems }
-      saveCartToLocalStorage(newState)
-      return newState
+      return { ...state, cartItems: updatedCartItems }
     }
     default:
       return state
