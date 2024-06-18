@@ -1,9 +1,12 @@
-import { object, string } from 'zod';
+import { object, string } from 'zod'
 
 const loginSchema = object({
   name: string()
-    .min(3, { message: 'Name must be at least 3 characters long' })
-    .max(50, { message: 'Name must be at most 50 characters long' }),
+    .min(2, { message: 'Name must be at least 2 characters long' })
+    .max(50, { message: 'Name must be at most 50 characters long' })
+    .refine((value) => !/\d/.test(value), {
+      message: 'It cannot contain numbers',
+    }),
 
   email: string()
     .email({ message: 'Invalid email address' }),

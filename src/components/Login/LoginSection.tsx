@@ -81,7 +81,7 @@ export const LoginSection = () => {
         photoURL: "https://project3-images-storage.s3.us-east-2.amazonaws.com/static/user-photo.png"
       })
       handleLoginResult(result)
-      toast.success('Logged in successfully with email.')
+      toast.success('Logged in successfully with email')
     } catch (err) {
       if ((err as AuthError).code === "auth/invalid-credential") {
         toast.error('Invalid email or password.')
@@ -212,16 +212,16 @@ export const LoginSection = () => {
                 <input type="text" placeholder='Abc@def.com' className='w-full border border-gray2 py-6 px-8 rounded-lg focus:outline-none' ref={emailRef} onChange={() => setEmailError('')} />
                 {emailError && <p className="text-red-500">{emailError}</p>}
               </label>
-
+              
               <label>
                 <p className='font-medium mb-5'>Your password</p>
-                <input type="text" placeholder='@Abcdef2' className='w-full border border-gray2 py-6 px-8 rounded-lg focus:outline-none' ref={passwordRef} onChange={() => setPasswordError('')} />
+                <input type="password" placeholder='@Abcdef2' className='w-full border border-gray2 py-6 px-8 rounded-lg focus:outline-none' ref={passwordRef} onChange={() => setPasswordError('')} />
                 {passwordError && <p className="text-red-500">{passwordError}</p>}
               </label>
 
               <label>
                 <p className='font-medium mb-5'>Confirm password</p>
-                <input type="text" placeholder='@Abcdef2' className='w-full border border-gray2 py-6 px-8 rounded-lg focus:outline-none' ref={passwordConfirmRef} onChange={() => setPasswordConfirmError('')} />
+                <input type="password" placeholder='@Abcdef2' className='w-full border border-gray2 py-6 px-8 rounded-lg focus:outline-none' ref={passwordConfirmRef} onChange={() => setPasswordConfirmError('')} />
                 {passwordConfirmError && <p className="text-red-500">{passwordConfirmError}</p>}
               </label>
 
