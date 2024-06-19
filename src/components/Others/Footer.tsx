@@ -1,10 +1,10 @@
 import React, { useState } from "react"
 import { useDispatch } from "react-redux"
 import footerSchema from "../../validation/footer"
-import { ToastContainer, toast } from "react-toastify"
 import { setFooterEmail } from "../../reducers/footerReducer"
 import { useSelector } from "react-redux"
 import { RootState } from "../../types/reducerSchema"
+import { toast } from "react-toastify"
 
 export const Footer = () => {
   const [email, setEmail] = useState<string>('')
@@ -38,8 +38,6 @@ export const Footer = () => {
 
   return (
     <footer className="border-t">
-      <ToastContainer />
-
       <div className="container flex flex-wrap justify-between px-24 py-12 border-b mx-auto">
         <div className="max-w-72 flex flex-col gap-14">
           <h4 className="font-Poppins font-bold text-2xl">Furniro.</h4>

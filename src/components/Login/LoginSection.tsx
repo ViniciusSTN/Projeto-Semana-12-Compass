@@ -4,8 +4,7 @@ import { auth } from '../../firebase/firebaseConfig'
 import { UserProfile } from '../../types/facebookLoginSchemas'
 import loginSchema from '../../validation/login'
 import axios from 'axios'
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+import { toast } from 'react-toastify'
 
 export const LoginSection = () => {
   const [user, setUser] = useState<UserProfile | null>(null)
@@ -183,8 +182,6 @@ export const LoginSection = () => {
 
   return (
     <section className='max-w-1440px mx-auto font-Poppins'>
-      <ToastContainer />
-
       {
         user ? (
           <div className='flex flex-col items-center gap-14 py-36'>

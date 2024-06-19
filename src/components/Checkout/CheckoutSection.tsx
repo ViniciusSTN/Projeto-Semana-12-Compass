@@ -2,9 +2,8 @@ import { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import { RootState } from '../../types/reducerSchema'
 import checkoutSchema from '../../validation/checkout'
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
 import getAddressByCep from '../../data/getAddress'
+import { toast } from 'react-toastify'
 
 export const CheckoutSection = () => {
   const initialFormData = {
@@ -117,8 +116,6 @@ export const CheckoutSection = () => {
 
   return (
     <section>
-      <ToastContainer />
-
       <form className='flex justify-between flex-wrap gap-6 py-16 px-24 font-Poppins' onSubmit={handleFormSubmit}>
         <div className='flex-grow max-w-608px px-76px py-9'>
           <h3 className='font-semibold text-4xl mb-9'>Billing details</h3>
