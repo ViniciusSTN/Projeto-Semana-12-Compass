@@ -3,17 +3,18 @@ import { persistReducer } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
 import { filterReducer } from './filterReducer'
 import { cartReducer } from './cartReducer'
-import { RootState } from '../types/reducerSchema'
+import { footerReducer } from './footerReducer'
 
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['filters', 'shoppingCart'],
+  whitelist: ['filters', 'shoppingCart', 'footerEmail'],
 }
 
-const rootReducer = combineReducers<RootState>({
+const rootReducer = combineReducers({
   filters: filterReducer,
   shoppingCart: cartReducer,
+  footerEmail: footerReducer, 
 })
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)

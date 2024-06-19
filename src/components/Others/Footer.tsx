@@ -1,6 +1,45 @@
+import React, { useState } from "react"
+import { useDispatch } from "react-redux"
+import footerSchema from "../../validation/footer"
+import { ToastContainer, toast } from "react-toastify"
+import { setFooterEmail } from "../../reducers/footerReducer"
+import { useSelector } from "react-redux"
+import { RootState } from "../../types/reducerSchema"
+
 export const Footer = () => {
+  const [email, setEmail] = useState<string>('')
+
+  const dispatch = useDispatch()
+  const emailList = useSelector((state: RootState) => state.footerEmail.emails)
+
+  function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setEmail(e.target.value)
+  }
+
+  function handleFormSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault()
+    const validation = footerSchema.safeParse({ email })
+
+    if (!validation.success) {
+      const error = validation.error.errors[0]
+      toast.error(`${error.message}`)
+      return
+    }
+
+    if (emailList.includes(email)) {
+      toast.error('Email already exists in the list')
+      return
+    }
+
+    dispatch(setFooterEmail(email))
+    toast.success('Email saved successfully')
+    setEmail('')
+  }
+
   return (
     <footer className="border-t">
+      <ToastContainer />
+
       <div className="container flex flex-wrap justify-between px-24 py-12 border-b mx-auto">
         <div className="max-w-72 flex flex-col gap-14">
           <h4 className="font-Poppins font-bold text-2xl">Furniro.</h4>
@@ -45,8 +84,8 @@ export const Footer = () => {
 
         <div className="font-Poppins">
           <p className="font-medium text-gray2 mb-11">Newsletter</p>
-          <form action="">
-            <input type="text" placeholder="Enter Your Email Address" className="font-normal text-sm border-b border-black focus:outline-none focus:ring-0" />
+          <form onSubmit={handleFormSubmit}>
+            <input type="text" placeholder="Enter Your Email Address" className="font-normal text-sm border-b border-black focus:outline-none focus:ring-0" value={email} onChange={handleInputChange} />
             <button type="submit" className="font-normal text-sm border-b border-black ml-3">SUBSCRIBE</button>
           </form>
         </div>
