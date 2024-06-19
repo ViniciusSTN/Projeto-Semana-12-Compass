@@ -1,4 +1,4 @@
-import { SELECT_SORT_FILTER, SELECT_TYPE_FILTER, SET_AMOUNT_SHOWING, SET_CURRENT_PAGE, SET_RESULTS } from "../reducers/filterReducer";
+import { SELECT_SORT_FILTER, SELECT_TYPE_FILTER, SET_AMOUNT_SHOWING, SET_CURRENT_PAGE, SET_RESULTS } from "../reducers/filterReducer"
 
 export type FilterStateSchema = {
   sortFilter: string | null
@@ -8,9 +8,12 @@ export type FilterStateSchema = {
   amountShowing: number
 }
 
-export type FilterReducerActionPropsSchema = SelectSortFilterActionSchema | SelectTypeFilterActionSchema | SetResultsActionSchema | SetCurrentPageActionSchema | SetAmountShowingActionSchema
-
-export type FilterReducerFunctionSchema = (state: FilterStateSchema, action: FilterReducerActionPropsSchema) => FilterStateSchema
+export type FilterReducerActionPropsSchema = 
+  | SelectSortFilterActionSchema 
+  | SelectTypeFilterActionSchema 
+  | SetResultsActionSchema 
+  | SetCurrentPageActionSchema 
+  | SetAmountShowingActionSchema
 
 export interface SelectSortFilterActionSchema {
   type: typeof SELECT_SORT_FILTER

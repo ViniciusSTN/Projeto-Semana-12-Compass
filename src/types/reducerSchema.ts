@@ -1,7 +1,9 @@
-import { CartReducerFunctionSchema } from "./cartReducerSchemas"
-import { FilterReducerFunctionSchema,  } from "./filterReducerSchemas"
+import { CartStateSchema } from "./cartReducerSchemas"
+import { FilterStateSchema } from "./filterReducerSchemas"
+import { FooterEmailStateSchema } from "./footerReducerSchemas"
 
 export type RootState = {
-  filters?: FilterReducerFunctionSchema
-  shoppingCart?: CartReducerFunctionSchema
+  filters: FilterStateSchema
+  shoppingCart: CartStateSchema
+  footerEmail: FooterEmailStateSchema
 }

@@ -1,4 +1,4 @@
-import { CartReducerFunctionSchema, CartStateSchema, SentCartItemSchema } from "../types/cartReducerSchemas"
+import { CartReducerActionPropsSchema, CartStateSchema, SentCartItemSchema } from "../types/cartReducerSchemas"
 
 export const SET_CART_ITEM = 'SET_CART_ITEM'
 export const DELETE_CART_ITEM = 'DELETE_CART_ITEM'
@@ -6,7 +6,7 @@ export const REDUCE_CART_ITEM = 'REDUCE_CART_ITEM'
 
 const initialState: CartStateSchema = { cartItems: [] }
 
-export const cartReducer: CartReducerFunctionSchema = (state = initialState, action) => {
+export const cartReducer = (state: CartStateSchema = initialState, action: CartReducerActionPropsSchema) => {
   switch (action.type) {
     case SET_CART_ITEM: {
       const existingItemIndex = state.cartItems.findIndex(item => item.id === action.payload.id)

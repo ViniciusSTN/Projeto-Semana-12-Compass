@@ -11,13 +11,9 @@ export type SentCartItemSchema = {
 
 export type CartItemSchema = SentCartItemSchema & { total: number }
 
-export type CartReducerActionPropsSchema = SetCartItemAction | DeleteCartItemAction | ReduceCartItemAction
-
 export type CartStateSchema = {
   cartItems: CartItemSchema[]
 }
-
-export type CartReducerFunctionSchema = (state: CartStateSchema, action: CartReducerActionPropsSchema) => CartStateSchema
 
 export interface SetCartItemAction {
   type: typeof SET_CART_ITEM
@@ -33,3 +29,5 @@ export interface DeleteCartItemAction {
   type: typeof DELETE_CART_ITEM
   payload: number
 }
+
+export type CartReducerActionPropsSchema = SetCartItemAction | ReduceCartItemAction | DeleteCartItemAction
