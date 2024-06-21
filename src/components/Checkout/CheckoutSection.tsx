@@ -243,7 +243,7 @@ export const CheckoutSection = () => {
             <p className='font-light mb-10'>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <span className='font-semibold'>privacy policy.</span></p>
   
             <div className='flex justify-center'>
-              <button type='submit' className='px-24 py-4 border border-black text-xl rounded-2xl'>Place order</button>
+              <button type='submit' className='px-24 py-4 border border-black text-xl rounded-2xl hover:text-goldenbrown hover:border-goldenbrown'>Place order</button>
             </div>
           </div>
         </div>

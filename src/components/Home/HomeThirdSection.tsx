@@ -55,7 +55,7 @@ export const HomeThirdSection = () => {
           }
         </div>
 
-        <a href="/shop" className="border border-goldenbrown text-goldenbrown w-60 h-12 flex items-center justify-center font-Poppins font-semibold mx-auto mb-16">
+        <a href="/shop" className="border border-goldenbrown text-goldenbrown w-60 h-12 flex items-center justify-center font-Poppins font-semibold mx-auto mb-16 hover:text-white hover:bg-goldenbrown">
           Show More
         </a>
       </div>

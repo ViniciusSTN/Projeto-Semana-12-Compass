@@ -46,16 +46,16 @@ export const Footer = () => {
             <p>FL 33134 USA</p>
           </div>
           <div className="max-w-48 flex gap-4">
-            <a target="_brank" href="https://www.facebook.com" className="w-34px h-34px rounded-full shadow-mdn flex items-center justify-center">
+            <a target="_brank" href="https://www.facebook.com" className="w-34px h-34px rounded-full shadow-mdn flex items-center justify-center hover:scale-125">
               <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/facebook.svg" alt="facebook" /></i>
             </a>
-            <a target="_brank" href="https://www.instagram.com" className="w-34px h-34px rounded-full shadow-mdn flex items-center justify-center">
+            <a target="_brank" href="https://www.instagram.com" className="w-34px h-34px rounded-full shadow-mdn flex items-center justify-center hover:scale-125">
               <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/instagram.svg" alt="instagram" /></i>
             </a>
-            <a target="_brank" href="https://x.com/?lang=pt-br" className="w-34px h-34px rounded-full shadow-mdn flex items-center justify-center">
+            <a target="_brank" href="https://x.com/?lang=pt-br" className="w-34px h-34px rounded-full shadow-mdn flex items-center justify-center hover:scale-125">
               <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/twitter.svg" alt="twitter" /></i>
             </a>
-            <a target="_brank" href="https://www.linkedin.com" className="w-34px h-34px rounded-full shadow-mdn flex items-center justify-center">
+            <a target="_brank" href="https://www.linkedin.com" className="w-34px h-34px rounded-full shadow-mdn flex items-center justify-center hover:scale-125">
               <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/linkedin.svg" alt="linkedin" /></i>
             </a>
           </div>
@@ -64,19 +64,19 @@ export const Footer = () => {
         <div className="font-Poppins font-medium">
           <p className="text-gray2 mb-11">Links</p>
           <ul className="flex flex-col gap-11">
-            <li><a href="/">Home</a></li>
-            <li><a href="/shop">Shop</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/" className="hover:text-goldenbrown">Home</a></li>
+            <li><a href="/shop" className="hover:text-goldenbrown">Shop</a></li>
+            <li><a href="/about" className="hover:text-goldenbrown">About</a></li>
+            <li><a href="/contact" className="hover:text-goldenbrown">Contact</a></li>
           </ul>
         </div>
 
         <div className="font-Poppins font-medium">
           <p className="text-gray2 mb-11">Help</p>
           <ul className="flex flex-col gap-11">
-            <li><a href="/payment">Payment Options</a></li>
-            <li><a href="/returns">Returns</a></li>
-            <li><a href="/policies">Privacy Policies</a></li>
+            <li><a href="/payment" className="hover:text-goldenbrown">Payment Options</a></li>
+            <li><a href="/returns" className="hover:text-goldenbrown">Returns</a></li>
+            <li><a href="/policies" className="hover:text-goldenbrown">Privacy Policies</a></li>
           </ul>
         </div>
 
@@ -84,7 +84,7 @@ export const Footer = () => {
           <p className="font-medium text-gray2 mb-11">Newsletter</p>
           <form onSubmit={handleFormSubmit} className="flex flex-wrap gap-3">
             <input type="text" placeholder="Enter Your Email Address" className="font-normal text-sm border-b border-black focus:outline-none focus:ring-0" value={email} onChange={handleInputChange} />
-            <button type="submit" className="font-normal text-sm border-b border-black">SUBSCRIBE</button>
+            <button type="submit" className="font-normal text-sm border-b border-black hover:text-gray2">SUBSCRIBE</button>
           </form>
         </div>
       </div>

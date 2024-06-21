@@ -114,7 +114,7 @@ export const ContactUsSection = () => {
               {error.messageError && <p className="text-red-500">{error.messageError}</p>}
             </label>
 
-            <button type='submit' className='bg-goldenbrown px-24 py-3 text-white rounded-md max-w-60 flex items-center justify-center'>Submit</button>
+            <button type='submit' className='bg-goldenbrown px-24 py-3 text-white rounded-md max-w-60 flex items-center justify-center hover:text-black'>Submit</button>
           </form>
         </div>
       </div>

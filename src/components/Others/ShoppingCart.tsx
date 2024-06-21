@@ -82,7 +82,7 @@ export const ShoppingCart = ({ children }: ShoppingCartProps) => {
                       <div className="flex items-center justify-between" key={item.id}>
                         <div className="flex items-center">
                           <div className="h-24 w-24 overflow-hidden rounded-lg">
-                            <img src={item.image} alt={item.title} className="h-full w-full object-cover" />
+                            <img src={item.image} alt={item.title} className="h-full w-full object-cover transition-transform duration-300 hover:scale-125 hover:rotate-12" />
                           </div>
                           <div className="pl-8 flex flex-col gap-2 max-w-236px overflow-hidden">
                             <h4 className="font-normal">{item.title}</h4>
@@ -112,9 +112,9 @@ export const ShoppingCart = ({ children }: ShoppingCartProps) => {
 
             <div className="border-t border-gray400">
               <div className="py-7 pl-7 pr-10 font-Poppins flex gap-4 justify-between">
-                <a href="/cart" className="flex items-center justify-center font-normal text-xs px-7 py-2 border border-black rounded-full">Cart</a>
-                <a href="/checkout" className="flex items-center justify-center font-normal text-xs px-7 py-2 border border-black rounded-full">Checkout</a>
-                <a href="/comparison" className="flex items-center justify-center font-normal text-xs px-7 py-2 border border-black rounded-full">Comparison</a>
+                <a href="/cart" className="flex items-center justify-center font-normal text-xs px-7 py-2 border border-black rounded-full hover:text-goldenbrown hover:border-goldenbrown">Cart</a>
+                <a href="/checkout" className="flex items-center justify-center font-normal text-xs px-7 py-2 border border-black rounded-full hover:text-goldenbrown hover:border-goldenbrown">Checkout</a>
+                <a href="/comparison" className="flex items-center justify-center font-normal text-xs px-7 py-2 border border-black rounded-full hover:text-goldenbrown hover:border-goldenbrown">Comparison</a>
               </div>
             </div>
           </div>

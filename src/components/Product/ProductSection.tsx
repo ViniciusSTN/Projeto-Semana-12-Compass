@@ -176,7 +176,7 @@ export const ProductSection = ({ product }: ProductSectionProps) => {
             <button onClick={handleIncrementQuantity} className="grow h-full">+</button>
           </div>
 
-          <button className={`w-212px h-16 text-xl border border-black rounded-2xl ${!(sizeActive && colorActive) && 'bg-gray400 cursor-not-allowed'}`} disabled={sizeActive && colorActive ? false : true} onClick={handleAddToCart}>Add To Cart</button>
+          <button className={`w-212px h-16 text-xl border border-black rounded-2xl ${sizeActive && colorActive && 'hover:text-goldenbrown hover:border-goldenbrown'} ${!(sizeActive && colorActive) && 'bg-gray400 cursor-not-allowed'}`} disabled={sizeActive && colorActive ? false : true} onClick={handleAddToCart}>Add To Cart</button>
         </div>
 
         <div className="border-t border-gray400 pt-10 text-gray2 flex flex-col gap-3">
@@ -220,15 +220,15 @@ export const ProductSection = ({ product }: ProductSectionProps) => {
         
             <div className="flex items-center gap-6">
               <button>
-                <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/facebook-preto.svg" alt="facebook" />
+                <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/facebook-preto.svg" alt="facebook" className="hover:scale-125" />
               </button>
   
               <button>
-                <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/linkedin-preto.svg" alt="linkedin" />
+                <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/linkedin-preto.svg" alt="linkedin" className="hover:scale-125" />
               </button>
   
               <button>
-                <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/twitter-preto.svg" alt="twitter" />
+                <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/twitter-preto.svg" alt="twitter" className="hover:scale-125" />
               </button>
             </div>
           </div>
