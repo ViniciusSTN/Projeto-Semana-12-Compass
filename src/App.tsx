@@ -11,6 +11,7 @@ import { Contact } from "./pages/Contact"
 import { ToastContainer } from "react-toastify"
 import { SingleProduct } from "./pages/SingleProduct"
 import 'react-toastify/dist/ReactToastify.css'
+import { Page404 } from "./pages/Page404"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/*" element={<Page404 />} />
         </Routes>
 
         <ToastContainer />

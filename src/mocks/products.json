@@ -4776,10 +4776,10 @@
       "category": "kitchen",
       "tags": ["cutlery", "kitchen", "ceramic"],
       "images": [
-        "https://us-east-2.console.aws.amazon.com/s3/object/project3-images-storage?region=us-east-2&bucketType=general&prefix=products/cutlery/erik-mclean-qsvQfsSUOgk-unsplash.jpg",
-        "https://us-east-2.console.aws.amazon.com/s3/object/project3-images-storage?region=us-east-2&bucketType=general&prefix=products/cutlery/erik-mclean-qsvQfsSUOgk-unsplash.jpg",
-        "https://us-east-2.console.aws.amazon.com/s3/object/project3-images-storage?region=us-east-2&bucketType=general&prefix=products/cutlery/erik-mclean-qsvQfsSUOgk-unsplash.jpg",
-        "https://us-east-2.console.aws.amazon.com/s3/object/project3-images-storage?region=us-east-2&bucketType=general&prefix=products/cutlery/erik-mclean-qsvQfsSUOgk-unsplash.jpg"
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/cutlery/erik-mclean-qsvQfsSUOgk-unsplash.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/cutlery/erik-mclean-qsvQfsSUOgk-unsplash.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/cutlery/erik-mclean-qsvQfsSUOgk-unsplash.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/cutlery/erik-mclean-qsvQfsSUOgk-unsplash.jpg"
       ]
     },
     {
@@ -4814,10 +4814,10 @@
       "category": "kitchen",
       "tags": ["cutlery", "kitchen", "blue"],
       "images": [
-        "https://us-east-2.console.aws.amazon.com/s3/object/project3-images-storage?region=us-east-2&bucketType=general&prefix=products/cutlery/pexels-pixabay-269257.jpg",
-        "https://us-east-2.console.aws.amazon.com/s3/object/project3-images-storage?region=us-east-2&bucketType=general&prefix=products/cutlery/pexels-pixabay-269257.jpg",
-        "https://us-east-2.console.aws.amazon.com/s3/object/project3-images-storage?region=us-east-2&bucketType=general&prefix=products/cutlery/pexels-pixabay-269257.jpg",
-        "https://us-east-2.console.aws.amazon.com/s3/object/project3-images-storage?region=us-east-2&bucketType=general&prefix=products/cutlery/pexels-pixabay-269257.jpg"
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/cutlery/pexels-pixabay-269257.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/cutlery/pexels-pixabay-269257.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/cutlery/pexels-pixabay-269257.jpg",
+        "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/cutlery/pexels-pixabay-269257.jpg"
       ]
     },
     {

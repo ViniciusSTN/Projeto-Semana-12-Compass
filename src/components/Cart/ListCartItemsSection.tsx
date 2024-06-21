@@ -34,63 +34,65 @@ export const ListCartItemsSection = () => {
   }, [cartItems])
 
   return (
-    <section className="mx-24 my-20 flex flex-wrap gap-8 justify-center font-Poppins">
-      <table>
-        <thead className="bg-off-white200 font-medium">
-          <tr>
-            <th scope="col" className="px-6 py-3 text-center font-medium tracking-wider">
-              Product
-            </th>
-            <th scope="col" className="px-6 py-3 text-center font-medium tracking-wider">
-              Price
-            </th>
-            <th scope="col" className="px-6 py-3 text-center font-medium tracking-wider">
-              Quantity
-            </th>
-            <th scope="col" className="px-6 py-3 text-center font-medium tracking-wider">
-              Subtotal
-            </th>
-            <th scope="col" className="px-6 py-3"></th>
-          </tr>
-        </thead>
-
-        <tbody className="bg-white divide-y divide-gray-200 mt-14">
-          {cartItems.map((item) => (
-            <tr key={item.id}>
-              <td className="py-6">
-                <div className="flex items-center gap-9">
-                  <div className="h-24 w-24 overflow-hidden rounded-lg">
-                    <img src={item.image} alt={item.title} className="h-full w-full object-cover" />
-                  </div>
-                  <p className="font-normal text-gray2 max-w-48">{item.title}</p>
-                </div>
-              </td>
-
-              <td className="max-w-36 p-6">
-                <p className="font-normal text-gray2">Rs. {item.price.toFixed(2)}</p>
-              </td>
-
-              <td>
-                <div className="border border-gray2 rounded-full flex items-center justify-between">
-                  <button className="py-3 px-5" onClick={() => handleReduceItemQuantity(item)}>-</button>
-                  <p className="font-medium">{item.quantity}</p>
-                  <button className="py-3 px-5" onClick={() => handleIncreaseItemQuantity(item)}>+</button>
-                </div>
-              </td>
-
-              <td>
-                <p className="px-6 font-normal">Rs. {item.total.toFixed(2)}</p>
-              </td>
-
-              <td>
-                <button onClick={() => handleDeleteItem(item.id)}>
-                  <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/remove.svg" alt="remove" /></i>
-                </button>
-              </td>
+    <section className="mx-10 my-20 flex flex-wrap gap-8 justify-center font-Poppins md:mx-24">
+      <div className="overflow-x-auto">
+        <table className="w-778px">
+          <thead className="bg-off-white200 font-medium">
+            <tr>
+              <th scope="col" className="px-6 py-3 text-center font-medium tracking-wider">
+                Product
+              </th>
+              <th scope="col" className="px-6 py-3 text-center font-medium tracking-wider">
+                Price
+              </th>
+              <th scope="col" className="px-6 py-3 text-center font-medium tracking-wider">
+                Quantity
+              </th>
+              <th scope="col" className="px-6 py-3 text-center font-medium tracking-wider">
+                Subtotal
+              </th>
+              <th scope="col" className="px-6 py-3"></th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+  
+          <tbody className="bg-white divide-y divide-gray-200 mt-14">
+            {cartItems.map((item) => (
+              <tr key={item.id}>
+                <td className="py-6">
+                  <div className="flex items-center gap-9">
+                    <div className="h-24 w-24 overflow-hidden rounded-lg">
+                      <img src={item.image} alt={item.title} className="h-full w-full object-cover" />
+                    </div>
+                    <p className="font-normal text-gray2 max-w-48">{item.title}</p>
+                  </div>
+                </td>
+  
+                <td className="max-w-36 p-6">
+                  <p className="font-normal text-gray2">Rs. {item.price.toFixed(2)}</p>
+                </td>
+  
+                <td>
+                  <div className="border border-gray2 rounded-full flex items-center justify-between">
+                    <button className="py-3 px-5" onClick={() => handleReduceItemQuantity(item)}>-</button>
+                    <p className="font-medium">{item.quantity}</p>
+                    <button className="py-3 px-5" onClick={() => handleIncreaseItemQuantity(item)}>+</button>
+                  </div>
+                </td>
+  
+                <td>
+                  <p className="px-6 font-normal">Rs. {item.total.toFixed(2)}</p>
+                </td>
+  
+                <td>
+                  <button onClick={() => handleDeleteItem(item.id)}>
+                    <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/remove.svg" alt="remove" /></i>
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
       <div className="bg-off-white200 px-76px h-392px flex flex-col justify-evenly">
         <h3 className="font-semibold text-3.3xl text-center">Cart Totals</h3>

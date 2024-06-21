@@ -93,8 +93,30 @@ export const ShopProducts = ({ itemsPerPage }: ShopSectionsProps) => {
     setCurrentPage(pageNumber)
   }
 
+  const generatePagination = () => {
+    const pages = []
+    if (totalPages <= 5) {
+      for (let i = 1; i <= totalPages; i++) {
+        pages.push(i)
+      }
+    } else {
+      pages.push(1)
+      if (currentPage > 3) {
+        pages.push('...')
+      }
+      if (currentPage > 2) pages.push(currentPage - 1)
+      if (currentPage !== 1 && currentPage !== totalPages) pages.push(currentPage)
+      if (currentPage < totalPages - 1) pages.push(currentPage + 1)
+      if (currentPage < totalPages - 2) {
+        pages.push('...')
+      }
+      pages.push(totalPages)
+    }
+    return pages
+  }
+
   return (
-    <section className="max-w-1440px mx-auto px-24 mb-20 min-h-540px relative">
+    <section className="max-w-1440px mx-auto mb-20 min-h-540px relative px-5 md:px-24">
       {loading && <Loading />}
 
       {!loading && (
@@ -117,18 +139,18 @@ export const ShopProducts = ({ itemsPerPage }: ShopSectionsProps) => {
       )}
 
       {!loading && (
-        <div className="flex gap-9 font-Poppins text-xl justify-center">
-          {Array.from({ length: totalPages }, (_, index) => (
+        <div className="flex gap-2 font-Poppins text-xl justify-center">
+          {generatePagination().map((page, index) => (
             <button
-              key={index + 1}
-              onClick={() => handlePageChange(index + 1)}
-              disabled={currentPage === index + 1}
-              className={`font-normal h-14 w-14 rounded-lg ${currentPage === index + 1 ? 'bg-goldenbrown text-white' : 'bg-off-white200'}`}
+              key={index}
+              onClick={() => typeof page === 'number' && handlePageChange(page)}
+              disabled={currentPage === page}
+              className={`font-normal rounded-lg h-8 w-8 sm:h-14 sm:w-14 ${currentPage === page ? 'bg-goldenbrown text-white' : 'bg-off-white200'}`}
             >
-              {index + 1}
+              {page}
             </button>
           ))}
-          <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages} className="font-light h-14 w-24 rounded-lg bg-off-white200">
+          <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages} className="font-light rounded-lg bg-off-white200 h-8 w-14 sm:h-14 sm:w-24">
             Next
           </button>
         </div>

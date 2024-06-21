@@ -54,11 +54,13 @@ export const ContactUsSection = () => {
 
   return (
     <section className="pt-24 font-Poppins">
-      <h3 className="font-semibold text-4xl text-center mb-2">Get In Touch With Us</h3>
-      <p className="text-center font-normal text-gray2 max-w-643px mx-auto">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+      <div className="mx-6">
+        <h3 className="font-semibold text-4xl text-center mb-2">Get In Touch With Us</h3>
+        <p className="text-center font-normal text-gray2 max-w-643px mx-auto">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+      </div>
 
-      <div className="flex flex-wrap gap-4 justify-center mt-4 pt-16 px-48">
-        <div className="flex flex-col gap-11 py-14 pl-14 pr-76px">
+      <div className="flex flex-wrap gap-4 justify-center mt-4 pt-16 px-10 sm:px-32 lg:px-48">
+        <div className="flex flex-col gap-11 py-14 md:pl-14 md:pr-76px">
           <div className="flex gap-7">
             <div><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/location-icon.svg" alt="Address" /></div>
             <div>

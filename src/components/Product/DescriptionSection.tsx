@@ -8,8 +8,8 @@ export const DescriptionSection = ({ description, additional, images, name }: De
   const additionalParagraph = additional.split('\n')
 
   return (
-    <section className="border-t border-gray400 pt-12 pb-16 px-24 flex flex-col items-center">
-      <div className="font-medium text-2xl flex justify-center gap-32 mb-9">
+    <section className="border-t border-gray400 pt-12 pb-16 flex flex-col items-center px-10 md:px-24">
+      <div className="font-medium text-2xl flex justify-center mb-9 gap-9 md:gap-32">
         <button className={`${sectionActive !== 'Description' && 'text-gray2'}`} onClick={() => setSectionActive('Description')}>Description</button>
         <button className={`${sectionActive !== 'Additional' && 'text-gray2'}`} onClick={() => setSectionActive('Additional')}>Additional Information</button>
       </div>

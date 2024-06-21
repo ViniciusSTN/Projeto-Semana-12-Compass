@@ -24,7 +24,7 @@ export const HomeThirdSection = () => {
   }, [])
 
   return (
-    <section className="px-14">
+    <section className="px-8 sm:px-14">
       <div className="max-w-1236px mx-auto">
         <h3 className="font-Poppins font-bold text-4.5xl text-center mb-8">Our Products</h3>
   

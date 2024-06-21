@@ -10,6 +10,7 @@ export const ProductSection = ({ product }: ProductSectionProps) => {
   const [sizeActive, setSizeActive] = useState<string | null>(null)
   const [colorActive, setColorActive] = useState<string | null>(null)
   const [quantity, setQuantity] = useState<number>(1)
+  const [mobile, setMobile] = useState<boolean>(false)
 
   const dispatch = useDispatch()
 
@@ -57,24 +58,57 @@ export const ProductSection = ({ product }: ProductSectionProps) => {
     }
   }, [sizeActive, colorActive, product.availability, quantity])
 
+  useEffect(() => {
+    function handleResize() {
+      const width = window.innerWidth
+
+      if (width < 768) setMobile(true)
+      else setMobile(false)
+    }
+
+    handleResize()
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
+
   return (
-    <section className="flex flex-wrap gap-104px justify-center pt-9 px-24 pb-14">
-      <div className="flex gap-7">
-        <div className="flex flex-col gap-8">
-          {product.images && product.images.map((image, index) => (
-            <button
-              key={index}
-              className="w-76px h-20 cursor-pointer"
-              onClick={() => setMainImage(image)}
-            >
-              <img src={image} alt={product.title} className="object-cover h-full w-full" />
-            </button>
-          ))}
-        </div>
+    <section className="flex flex-wrap gap-104px justify-center pt-9 px-10 pb-14 md:px-24">
+      <div className="flex gap-7 flex-col md:flex-row">
+
+        { !mobile && (
+          <div className="flex flex-col gap-8">
+            {product.images && product.images.map((image, index) => (
+              <button
+                key={index}
+                className="w-76px h-20 cursor-pointer"
+                onClick={() => setMainImage(image)}
+              >
+                <img src={image} alt={product.title} className="object-cover h-full w-full" />
+              </button>
+            ))}
+          </div>
+        )}
 
         <div className="max-w-424px h-500px">
           <img src={mainImage} alt={product.title} className="object-cover h-full w-full" />
         </div>
+
+        { mobile && (
+          <div className="flex gap-2">
+            {product.images && product.images.map((image, index) => (
+              <button
+                key={index}
+                className="w-76px h-20 cursor-pointer"
+                onClick={() => setMainImage(image)}
+              >
+                <img src={image} alt={product.title} className="object-cover h-full w-full" />
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       <div>
