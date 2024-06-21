@@ -62,11 +62,11 @@ export const ListCartItemsSection = () => {
                   <div className="h-24 w-24 overflow-hidden rounded-lg">
                     <img src={item.image} alt={item.title} className="h-full w-full object-cover" />
                   </div>
-                  <p className="font-normal text-gray2">{item.title}</p>
+                  <p className="font-normal text-gray2 max-w-48">{item.title}</p>
                 </div>
               </td>
 
-              <td className="px-12">
+              <td className="max-w-36 p-6">
                 <p className="font-normal text-gray2">Rs. {item.price.toFixed(2)}</p>
               </td>
 
@@ -79,7 +79,7 @@ export const ListCartItemsSection = () => {
               </td>
 
               <td>
-                <p className="px-10 font-normal">Rs. {item.total.toFixed(2)}</p>
+                <p className="px-6 font-normal">Rs. {item.total.toFixed(2)}</p>
               </td>
 
               <td>
