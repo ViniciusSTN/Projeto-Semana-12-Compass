@@ -49,7 +49,7 @@ export const RelatedProductsSection = ({ category }: RelatedProductsSectionProps
         }
       </div>
 
-      <a href="/shop" className="border border-goldenbrown text-goldenbrown font-semibold w-60 h-12 flex items-center justify-center">
+      <a href="/shop" className="border border-goldenbrown text-goldenbrown font-semibold w-60 h-12 flex items-center justify-center hover:text-white hover:bg-goldenbrown">
         Show more
       </a>
     </section>

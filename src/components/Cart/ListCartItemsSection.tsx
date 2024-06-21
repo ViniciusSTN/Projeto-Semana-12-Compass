@@ -61,7 +61,7 @@ export const ListCartItemsSection = () => {
                 <td className="py-6">
                   <div className="flex items-center gap-9">
                     <div className="h-24 w-24 overflow-hidden rounded-lg">
-                      <img src={item.image} alt={item.title} className="h-full w-full object-cover" />
+                      <img src={item.image} alt={item.title} className="h-full w-full object-cover transition-transform duration-300 hover:scale-125 hover:rotate-12" />
                     </div>
                     <p className="font-normal text-gray2 max-w-48">{item.title}</p>
                   </div>
@@ -107,7 +107,7 @@ export const ListCartItemsSection = () => {
           <p className="text-goldenbrown font-medium text-xl">Rs. {totalCart.toFixed(2)}</p>
         </div>
 
-        <a href="/checkout" className={`font-normal text-xl flex items-center justify-center border border-black rounded-2xl h-14 ${cartItems.length === 0 && 'pointer-events-none'}`}>Checkout</a>
+        <a href="/checkout" className={`font-normal text-xl flex items-center justify-center border border-black rounded-2xl h-14 hover:text-goldenbrown hover:border-goldenbrown ${cartItems.length === 0 && 'pointer-events-none'}`}>Checkout</a>
       </div>
     </section>
   )

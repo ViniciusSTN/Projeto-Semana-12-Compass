@@ -191,7 +191,7 @@ export const LoginSection = () => {
               <img src={getProfilePicture() ?? ''} alt="profile" className='object-cover w-full h-full' />
             </div>
 
-            <button onClick={handleLogout}>
+            <button onClick={handleLogout} className='hover:text-gray2'>
               LOGOUT
             </button>
           </div>
@@ -223,7 +223,7 @@ export const LoginSection = () => {
               </label>
 
               <div className='flex justify-center mt-5'>
-                <button type='submit' className='bg-goldenbrown px-24 py-3 text-white rounded-md max-w-64 flex items-center justify-center'>Submit</button>
+                <button type='submit' className='bg-goldenbrown px-24 py-3 text-white rounded-md max-w-64 flex items-center justify-center hover:text-black'>Submit</button>
               </div>
             </form>
 
@@ -231,11 +231,11 @@ export const LoginSection = () => {
 
             <div className='flex gap-8'>
               <button onClick={handleFacebookLogin}>
-                <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/facebook-logo.svg" alt="facebook" />
+                <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/facebook-logo.svg" alt="facebook" className='hover:scale-105' />
               </button>
 
               <button onClick={handleGoogleLogin}>
-                <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/google-logo.svg" alt="google" />
+                <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/google-logo.svg" alt="google" className='hover:scale-105' />
               </button>
             </div>
           </div>
