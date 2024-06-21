@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# Descrição
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte de um desafio na semana 12 da trilha Front-End da Compass.UOL. O objetivo era criar um e-commerce fictício com base em um protótipo, testando nossas habilidades de desenvolvimento front-end. O sistema foi desenvolvido individualmente.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias e Bibliotecas Utilizadas
+- ReactJS: Biblioteca JavaScript para construção de interfaces de usuário.
+- TypeScript: Superset de JavaScript que adiciona tipagem estática ao código.
+- Tailwind CSS: Framework de CSS utilitário para estilização.
+- Axios: Cliente HTTP para realizar requisições.
+- Firebase: Plataforma para autenticação de usuários.
+- React Router: Biblioteca para criação de rotas no React.
+- Splide: Biblioteca para criação de sliders/carrosséis.
+- Run Mock: Ferramenta para simulação de requisições de dados.
+- Redux: Biblioteca para gerenciamento de estado global.
+- Redux Persist: Persistência de estados no Redux.
+- Zod: Biblioteca para validação de esquemas e formulários.
+- Via CEP: Serviço para busca de endereços com base no CEP.
+- AWS S3: Serviço de armazenamento de imagens.
+- AWS EC2: Serviço de hospedagem de servidores.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Como usar
+1. Clone este repositório
+2. Execute o comando `npm install` dentro da pasta raiz do projeto
+3. Crie um arquivo chamado `.env.local` na raiz do projeto e preencha os dados necessários com base no arquivo `.env.local.example`
+4. Execute `npm run dev` para rodar o projeto em desenvolvimento
+5. Abra o navegador e acesse a URL http://localhost:5173/
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Prototipação
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p align="start">
+  <img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/prototipo/prototipo.PNG" width="600" />
+</p>
+
