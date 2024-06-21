@@ -1,0 +1,988 @@
+{
+  "id": 1,
+  "sku": "ap001",
+  "title": "Professional Blender",
+  "brief_description": "Powerful and Versatile Blender",
+  "price": 150,
+  "discount_percentage": 10,
+  "new": true,
+  "description": "Make smoothies, soups, and sauces with ease using our professional blender.",
+  "full_description": "Blend like a pro with our high-performance blender. Whether you're whipping up a smoothie, pureeing vegetables for soup, or making creamy sauces, this blender delivers consistent results every time.",
+  "additional_information": "BPA-free pitcher. Dishwasher-safe parts. 10-speed settings.",
+  "stars": 4.8,
+  "reviews": 30,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#000000",
+      "amount": 15
+    },
+    {
+      "size": "sm",
+      "color": "#666666",
+      "amount": 10
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "sm"],
+    "colors": ["#000000", "#666666", "#999999"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "blender", "professional"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/uae-snapper-H9tFXVU9NPg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/uae-snapper-H9tFXVU9NPg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/uae-snapper-H9tFXVU9NPg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/uae-snapper-H9tFXVU9NPg-unsplash.jpg"
+  ]
+},
+{
+  "id": 2,
+  "sku": "ap002",
+  "title": "4-Slice Toaster",
+  "brief_description": "Efficient Toaster for Quick Breakfasts",
+  "price": 50,
+  "discount_percentage": 5,
+  "new": false,
+  "description": "Toast bread, bagels, and more to perfection with our 4-slice toaster.",
+  "full_description": "Start your day right with our efficient 4-slice toaster. With multiple settings and wide slots, you can toast bread, bagels, and other baked goods just the way you like them.",
+  "additional_information": "Removable crumb tray. Cancel function. High-lift lever for easy removal.",
+  "stars": 4.5,
+  "reviews": 25,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#CCCCCC",
+      "amount": 12
+    },
+    {
+      "size": "sm",
+      "color": "#999999",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["md", "sm"],
+    "colors": ["#CCCCCC", "#999999", "#DDDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "toaster", "4-slice"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/camylla-battani-UCctf6kvtLw-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/camylla-battani-UCctf6kvtLw-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/camylla-battani-UCctf6kvtLw-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/camylla-battani-UCctf6kvtLw-unsplash.jpg"
+  ]
+},
+{
+  "id": 3,
+  "sku": "ap003",
+  "title": "Programmable Coffee Maker",
+  "brief_description": "Convenient Coffee Brewing",
+  "price": 80,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Brew delicious coffee at home with our programmable coffee maker.",
+  "full_description": "Enjoy freshly brewed coffee every morning with our programmable coffee maker. With programmable settings and a built-in timer, you can wake up to the aroma of your favorite blend. The drip-free carafe ensures a mess-free pour every time.",
+  "additional_information": "12-cup capacity. Auto shut-off feature. Removable filter basket for easy cleaning.",
+  "stars": 4.7,
+  "reviews": 20,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#663300",
+      "amount": 10
+    },
+    {
+      "size": "sm",
+      "color": "#996633",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "sm"],
+    "colors": ["#663300", "#996633", "#CC9966"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "coffee maker", "programmable"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/earlybird-coffee-JE-MOId38SU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/earlybird-coffee-JE-MOId38SU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/earlybird-coffee-JE-MOId38SU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/earlybird-coffee-JE-MOId38SU-unsplash.jpg"
+  ]
+},
+{
+  "id": 4,
+  "sku": "ap004",
+  "title": "Countertop Microwave Oven",
+  "brief_description": "Compact Microwave for Quick Heating",
+  "price": 100,
+  "discount_percentage": 8,
+  "new": true,
+  "description": "Heat up meals quickly and efficiently with our countertop microwave oven.",
+  "full_description": "Simplify mealtime with our compact microwave oven. With multiple power levels and a spacious interior, it's perfect for heating up leftovers, cooking frozen meals, or popping popcorn. The sleek design complements any kitchen decor.",
+  "additional_information": "0.7 cubic feet capacity. Digital display with touchpad controls. Child lock feature.",
+  "stars": 4.6,
+  "reviews": 15,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#999999",
+      "amount": 10
+    },
+    {
+      "size": "sm",
+      "color": "#CCCCCC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["md", "sm"],
+    "colors": ["#999999", "#CCCCCC", "#DDDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "microwave", "countertop"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/erik-mclean-aPoF91L-n6k-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/erik-mclean-aPoF91L-n6k-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/erik-mclean-aPoF91L-n6k-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/erik-mclean-aPoF91L-n6k-unsplash.jpg"
+  ]
+},
+{
+  "id": 5,
+  "sku": "ap005",
+  "title": "Electric Kettle",
+  "brief_description": "Quick Boiling Kettle for Tea and Coffee",
+  "price": 40,
+  "discount_percentage": 5,
+  "new": false,
+  "description": "Boil water rapidly for tea, coffee, and more with our electric kettle.",
+  "full_description": "Prepare hot beverages in a flash with our electric kettle. Boasting a rapid-boil feature and automatic shutoff, it's perfect for making tea, coffee, instant soups, and more. The cordless design and ergonomic handle make pouring easy and safe.",
+  "additional_information": "1.7-liter capacity. BPA-free materials. Removable filter for easy cleaning.",
+  "stars": 4.3,
+  "reviews": 20,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#3366CC",
+      "amount": 12
+    },
+    {
+      "size": "sm",
+      "color": "#6699FF",
+      "amount": 10
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "sm"],
+    "colors": ["#3366CC", "#6699FF", "#99CCFF"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "kettle", "electric"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/andrea-niosi-LbJ_jSAepKM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/andrea-niosi-LbJ_jSAepKM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/andrea-niosi-LbJ_jSAepKM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/andrea-niosi-LbJ_jSAepKM-unsplash.jpg"
+  ]
+},
+{
+  "id": 6,
+  "sku": "ap006",
+  "title": "Air Fryer",
+  "brief_description": "Healthier Cooking with Less Oil",
+  "price": 120,
+  "discount_percentage": 12,
+  "new": true,
+  "description": "Enjoy crispy, delicious food with our air fryer, using little to no oil.",
+  "full_description": "Indulge in your favorite fried foods guilt-free with our air fryer. Using rapid air technology, it cooks food evenly and crisply with little to no oil, reducing fat and calories. From french fries to chicken wings, you'll love the crispy results every time.",
+  "additional_information": "3.5-quart capacity. Adjustable temperature control. Removable basket for easy cleaning.",
+  "stars": 4.7,
+  "reviews": 25,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#FF6633",
+      "amount": 8
+    },
+    {
+      "size": "sm",
+      "color": "#FF9966",
+      "amount": 6
+    }
+  ],
+  "types": {
+    "sizes": ["md", "sm"],
+    "colors": ["#FF6633", "#FF9966", "#FFCC99"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "air fryer", "healthy cooking"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/dex-ezekiel-QfhiT6pTe3E-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/dex-ezekiel-QfhiT6pTe3E-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/dex-ezekiel-QfhiT6pTe3E-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/dex-ezekiel-QfhiT6pTe3E-unsplash.jpg"
+  ]
+},
+{
+  "id": 7,
+  "sku": "ap007",
+  "title": "Food Processor",
+  "brief_description": "Versatile Kitchen Assistant",
+  "price": 120,
+  "discount_percentage": 10,
+  "new": false,
+  "description": "Effortlessly chop, slice, and shred ingredients with our food processor.",
+  "full_description": "Streamline meal prep with our versatile food processor. Equipped with multiple attachments, it effortlessly chops vegetables, slices fruits, and shreds cheese in seconds. From salsa to dough, it's your go-to kitchen assistant for a wide range of recipes.",
+  "additional_information": "10-cup capacity. Stainless steel blades. Dishwasher-safe parts.",
+  "stars": 4.5,
+  "reviews": 18,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#FF9999",
+      "amount": 10
+    },
+    {
+      "size": "sm",
+      "color": "#FFCCCC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "sm"],
+    "colors": ["#FF9999", "#FFCCCC", "#FFDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "food processor", "versatile"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/henrique-s-ruzzon-MHWIKAlCL3g-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/henrique-s-ruzzon-MHWIKAlCL3g-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/henrique-s-ruzzon-MHWIKAlCL3g-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/henrique-s-ruzzon-MHWIKAlCL3g-unsplash.jpg"
+  ]
+},
+{
+  "id": 8,
+  "sku": "ap008",
+  "title": "Slow Cooker",
+  "brief_description": "Set-and-Forget Cooking Convenience",
+  "price": 70,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Create delicious, tender meals with our programmable slow cooker.",
+  "full_description": "Enjoy tender, flavorful meals without the hassle with our programmable slow cooker. With customizable cooking times and temperatures, you can set it and forget it, coming home to a delicious meal after a long day. From soups and stews to roasts and desserts, it's a kitchen essential for busy families.",
+  "additional_information": "6-quart capacity. Digital timer and display. Removable stoneware pot for easy serving and cleaning.",
+  "stars": 4.6,
+  "reviews": 22,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#669933",
+      "amount": 12
+    },
+    {
+      "size": "md",
+      "color": "#99CC66",
+      "amount": 10
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "md"],
+    "colors": ["#669933", "#99CC66", "#CCFF99"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "slow cooker", "programmable"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pierre-antoine-caisso-Z4PkXxJM91g-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pierre-antoine-caisso-Z4PkXxJM91g-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pierre-antoine-caisso-Z4PkXxJM91g-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pierre-antoine-caisso-Z4PkXxJM91g-unsplash.jpg"
+  ]
+},
+{
+  "id": 9,
+  "sku": "ap009",
+  "title": "Electric Pressure Cooker",
+  "brief_description": "Fast and Convenient Cooking Solution",
+  "price": 90,
+  "discount_percentage": 15,
+  "new": true,
+  "description": "Cook meals quickly and efficiently with our electric pressure cooker.",
+  "full_description": "Experience the convenience of fast cooking with our electric pressure cooker. From soups and stews to rice and beans, it prepares meals in a fraction of the time compared to traditional cooking methods. With multiple preset programs and customizable settings, it's perfect for busy home cooks.",
+  "additional_information": "8-quart capacity. Safety locking lid. Digital display with touchpad controls.",
+  "stars": 4.8,
+  "reviews": 28,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#FF9900",
+      "amount": 8
+    },
+    {
+      "size": "md",
+      "color": "#FFCC00",
+      "amount": 6
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "md"],
+    "colors": ["#FF9900", "#FFCC00", "#FFDD99"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "pressure cooker", "electric"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/harry-grout-GacHl5pAwmg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/harry-grout-GacHl5pAwmg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/harry-grout-GacHl5pAwmg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/harry-grout-GacHl5pAwmg-unsplash.jpg"
+  ]
+},
+{
+  "id": 10,
+  "sku": "ap010",
+  "title": "Hand Mixer",
+  "brief_description": "Efficient Mixing for Baking and Cooking",
+  "price": 35,
+  "discount_percentage": 5,
+  "new": false,
+  "description": "Mix batters, doughs, and more with ease using our hand mixer.",
+  "full_description": "Make baking and cooking a breeze with our hand mixer. With multiple speed settings and attachments, it's perfect for mixing everything from cake batter to whipped cream. The compact design and ergonomic handle make it comfortable to use for extended periods.",
+  "additional_information": "250-watt motor. Beaters and dough hooks included. Easy-release button for quick attachment changes.",
+  "stars": 4.4,
+  "reviews": 20,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#CC6666",
+      "amount": 10
+    },
+    {
+      "size": "xs",
+      "color": "#FF9999",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "xs"],
+    "colors": ["#CC6666", "#FF9999", "#FFCCCC"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "hand mixer", "mixing"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/water-lovers-pmAMt2GhIZM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/water-lovers-pmAMt2GhIZM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/water-lovers-pmAMt2GhIZM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/water-lovers-pmAMt2GhIZM-unsplash.jpg"
+  ]
+},
+{
+  "id": 11,
+  "sku": "ap011",
+  "title": "Rice Cooker",
+  "brief_description": "Perfectly Cooked Rice Every Time",
+  "price": 50,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Prepare fluffy, evenly cooked rice effortlessly with our rice cooker.",
+  "full_description": "Say goodbye to undercooked or overcooked rice with our rice cooker. With automatic cooking and keep-warm functions, it ensures perfectly cooked rice every time. The non-stick inner pot makes cleanup a breeze, and the compact design saves valuable counter space.",
+  "additional_information": "8-cup capacity. One-touch operation. Includes measuring cup and rice paddle.",
+  "stars": 4.7,
+  "reviews": 25,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#669999",
+      "amount": 12
+    },
+    {
+      "size": "sm",
+      "color": "#99CCCC",
+      "amount": 10
+    }
+  ],
+  "types": {
+    "sizes": ["md", "sm"],
+    "colors": ["#669999", "#99CCCC", "#CCDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "rice cooker", "cooking"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/mineragua-sparkling-water-A7sSuhCxgaM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/mineragua-sparkling-water-A7sSuhCxgaM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/mineragua-sparkling-water-A7sSuhCxgaM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/mineragua-sparkling-water-A7sSuhCxgaM-unsplash.jpg"
+  ]
+},
+{
+  "id": 12,
+  "sku": "ap012",
+  "title": "Juicer",
+  "brief_description": "Freshly Squeezed Juices at Home",
+  "price": 80,
+  "discount_percentage": 10,
+  "new": true,
+  "description": "Enjoy healthy, homemade juices with our juicer.",
+  "full_description": "Start your day on a refreshing note with our juicer. Extract fresh, nutrient-rich juices from fruits and vegetables with ease. The powerful motor and stainless steel blades ensure maximum extraction, while the large feed chute accommodates whole fruits and veggies, reducing prep time.",
+  "additional_information": "2-speed settings. Large pulp container. Easy-to-clean design.",
+  "stars": 4.6,
+  "reviews": 30,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#FFCC33",
+      "amount": 8
+    },
+    {
+      "size": "sm",
+      "color": "#FF9900",
+      "amount": 6
+    }
+  ],
+  "types": {
+    "sizes": ["md", "sm"],
+    "colors": ["#FFCC33", "#FF9900", "#FFCC99"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "juicer", "fresh juice"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/toa-heftiba-niVJaN5AMjs-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/toa-heftiba-niVJaN5AMjs-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/toa-heftiba-niVJaN5AMjs-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/toa-heftiba-niVJaN5AMjs-unsplash.jpg"
+  ]
+},
+{
+  "id": 13,
+  "sku": "ap013",
+  "title": "Electric Can Opener",
+  "brief_description": "Effortless Can Opening",
+  "price": 20,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Open cans quickly and easily with our electric can opener.",
+  "full_description": "Say goodbye to struggling with manual can openers with our electric can opener. With just the press of a button, it effortlessly removes lids from cans of all sizes. The compact design and cord storage make it a space-saving addition to any kitchen.",
+  "additional_information": "Auto shut-off feature. Built-in knife sharpener. Removable cutting lever for easy cleaning.",
+  "stars": 4.2,
+  "reviews": 15,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#666699",
+      "amount": 12
+    },
+    {
+      "size": "xs",
+      "color": "#9999CC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "xs"],
+    "colors": ["#666699", "#9999CC", "#CCCCFF"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "can opener", "electric"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/ronan-furuta-AjcABUQ7WuA-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/ronan-furuta-AjcABUQ7WuA-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/ronan-furuta-AjcABUQ7WuA-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/ronan-furuta-AjcABUQ7WuA-unsplash.jpg"
+  ]
+},
+{
+  "id": 14,
+  "sku": "ap014",
+  "title": "Electric Grill",
+  "brief_description": "Indoor Grilling Convenience",
+  "price": 80,
+  "discount_percentage": 10,
+  "new": true,
+  "description": "Grill your favorite foods indoors with our electric grill.",
+  "full_description": "Enjoy the taste of grilled food year-round with our electric grill. With adjustable temperature control and a large cooking surface, it's perfect for grilling burgers, steaks, veggies, and more. The non-stick surface ensures easy cleanup, and the removable drip tray collects excess grease for healthier cooking.",
+  "additional_information": "200-square-inch cooking surface. Removable grill plate and drip tray for easy cleaning. Adjustable thermostat control.",
+  "stars": 4.6,
+  "reviews": 20,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#FF6633",
+      "amount": 10
+    },
+    {
+      "size": "md",
+      "color": "#FF9966",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "md"],
+    "colors": ["#FF6633", "#FF9966", "#FFCC99"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "grill", "indoor"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-phenyo-deluxe-427483-1370082.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-phenyo-deluxe-427483-1370082.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-phenyo-deluxe-427483-1370082.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-phenyo-deluxe-427483-1370082.jpg"
+  ]
+},
+{
+  "id": 15,
+  "sku": "ap015",
+  "title": "Electric Food Steamer",
+  "brief_description": "Healthy Steaming for Delicious Meals",
+  "price": 60,
+  "discount_percentage": 5,
+  "new": false,
+  "description": "Steam vegetables, seafood, and more with our electric food steamer.",
+  "full_description": "Create nutritious, flavorful meals with our electric food steamer. With multiple steaming trays and a timer function, it allows you to cook a variety of foods simultaneously without mixing flavors. The compact design and stackable trays make it ideal for small kitchens.",
+  "additional_information": "8-quart capacity. Digital timer with automatic shut-off. BPA-free steaming trays.",
+  "stars": 4.4,
+  "reviews": 18,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#009933",
+      "amount": 12
+    },
+    {
+      "size": "md",
+      "color": "#66CC99",
+      "amount": 10
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "md"],
+    "colors": ["#009933", "#66CC99", "#99FFCC"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "food steamer", "healthy cooking"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/dane-deaner-wkC8EX8y9Mc-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/dane-deaner-wkC8EX8y9Mc-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/dane-deaner-wkC8EX8y9Mc-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/dane-deaner-wkC8EX8y9Mc-unsplash.jpg"
+  ]
+},
+{
+  "id": 16,
+  "sku": "ap016",
+  "title": "Electric Blender",
+  "brief_description": "Versatile Blending for Smoothies and More",
+  "price": 40,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Blend smoothies, soups, and sauces with ease using our electric blender.",
+  "full_description": "Achieve perfect blending results every time with our electric blender. From silky smoothies to creamy soups, it effortlessly blends ingredients to your desired consistency. The durable stainless steel blades and powerful motor ensure smooth operation, while the removable pitcher simplifies cleaning.",
+  "additional_information": "10-speed settings. 6-cup capacity pitcher. Pulse function for precise control.",
+  "stars": 4.3,
+  "reviews": 22,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#9900CC",
+      "amount": 8
+    },
+    {
+      "size": "md",
+      "color": "#CC66FF",
+      "amount": 6
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "md"],
+    "colors": ["#9900CC", "#CC66FF", "#CC99FF"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "blender", "versatile"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/daniel-norris-ZN_86cZrSN0-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/daniel-norris-ZN_86cZrSN0-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/daniel-norris-ZN_86cZrSN0-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/daniel-norris-ZN_86cZrSN0-unsplash.jpg"
+  ]
+},
+{
+  "id": 17,
+  "sku": "ap017",
+  "title": "Toaster Oven",
+  "brief_description": "Multi-Functional Cooking in a Compact Design",
+  "price": 60,
+  "discount_percentage": 8,
+  "new": true,
+  "description": "Bake, toast, and broil with our versatile toaster oven.",
+  "full_description": "Upgrade your kitchen with our multi-functional toaster oven. Whether you're toasting bread, baking cookies, or broiling meats, it delivers consistent, even cooking results every time. The spacious interior accommodates up to 6 slices of bread or a 12-inch pizza, while the intuitive controls make operation a breeze.",
+  "additional_information": "3 rack positions. Adjustable temperature up to 450°F. Removable crumb tray for easy cleaning.",
+  "stars": 4.5,
+  "reviews": 25,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#FF6633",
+      "amount": 10
+    },
+    {
+      "size": "md",
+      "color": "#FF9966",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "md"],
+    "colors": ["#FF6633", "#FF9966", "#FFCC99"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "toaster oven", "multi-functional"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/kam-idris-Ot2iTXgC6fY-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/kam-idris-Ot2iTXgC6fY-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/kam-idris-Ot2iTXgC6fY-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/kam-idris-Ot2iTXgC6fY-unsplash.jpg"
+  ]
+},
+{
+  "id": 18,
+  "sku": "ap018",
+  "title": "Electric Pressure Cooker",
+  "brief_description": "Fast and Convenient Cooking Solution",
+  "price": 90,
+  "discount_percentage": 15,
+  "new": true,
+  "description": "Cook meals quickly and efficiently with our electric pressure cooker.",
+  "full_description": "Experience the convenience of fast cooking with our electric pressure cooker. From soups and stews to rice and beans, it prepares meals in a fraction of the time compared to traditional cooking methods. With multiple preset programs and customizable settings, it's perfect for busy home cooks.",
+  "additional_information": "8-quart capacity. Safety locking lid. Digital display with touchpad controls.",
+  "stars": 4.8,
+  "reviews": 28,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#FF9900",
+      "amount": 8
+    },
+    {
+      "size": "md",
+      "color": "#FFCC00",
+      "amount": 6
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "md"],
+    "colors": ["#FF9900", "#FFCC00", "#FFDD99"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "pressure cooker", "electric"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/josbra-design-1eWGq_l_DuU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/josbra-design-1eWGq_l_DuU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/josbra-design-1eWGq_l_DuU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/josbra-design-1eWGq_l_DuU-unsplash.jpg"
+  ]
+},
+{
+  "id": 19,
+  "sku": "ap019",
+  "title": "Countertop Microwave",
+  "brief_description": "Efficient Heating and Cooking",
+  "price": 80,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Heat and cook meals quickly with our countertop microwave.",
+  "full_description": "Simplify meal preparation with our countertop microwave. With multiple power levels and preset cooking programs, it efficiently heats and cooks a variety of dishes. The spacious interior accommodates large plates and dishes, while the sleek design adds a modern touch to any kitchen.",
+  "additional_information": "1.2 cubic feet capacity. Digital display with touchpad controls. Child safety lock feature.",
+  "stars": 4.4,
+  "reviews": 20,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#669999",
+      "amount": 12
+    },
+    {
+      "size": "md",
+      "color": "#99CCCC",
+      "amount": 10
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "md"],
+    "colors": ["#669999", "#99CCCC", "#CCDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "microwave", "efficient"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/house-method-illedcWylYU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/house-method-illedcWylYU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/house-method-illedcWylYU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/house-method-illedcWylYU-unsplash.jpg"
+  ]
+},
+{
+  "id": 20,
+  "sku": "ap020",
+  "title": "Electric Kettle",
+  "brief_description": "Quick Boiling for Hot Beverages",
+  "price": 30,
+  "discount_percentage": 5,
+  "new": true,
+  "description": "Boil water quickly and efficiently with our electric kettle.",
+  "full_description": "Enjoy hot beverages in no time with our electric kettle. Whether you're making tea, coffee, or instant soup, it boils water rapidly for immediate use. The cordless design and ergonomic handle make pouring easy, while the auto shut-off feature ensures safety and energy efficiency.",
+  "additional_information": "1.7-liter capacity. 1500 watts of power. Removable filter for easy cleaning.",
+  "stars": 4.6,
+  "reviews": 25,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#FF6633",
+      "amount": 8
+    },
+    {
+      "size": "xs",
+      "color": "#FF9966",
+      "amount": 6
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "xs"],
+    "colors": ["#FF6633", "#FF9966", "#FFCC99"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "electric kettle", "quick boiling"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/callum-hill-hWloR2p8GBk-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/callum-hill-hWloR2p8GBk-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/callum-hill-hWloR2p8GBk-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/callum-hill-hWloR2p8GBk-unsplash.jpg"
+  ]
+},
+{
+  "id": 21,
+  "sku": "ap021",
+  "title": "Electric Food Processor",
+  "brief_description": "Versatile Kitchen Assistant",
+  "price": 60,
+  "discount_percentage": 10,
+  "new": true,
+  "description": "Effortlessly chop, slice, and shred ingredients with our food processor.",
+  "full_description": "Streamline meal prep with our versatile food processor. Equipped with multiple attachments, it effortlessly chops vegetables, slices fruits, and shreds cheese in seconds. From salsa to dough, it's your go-to kitchen assistant for a wide range of recipes.",
+  "additional_information": "8-cup capacity. Stainless steel blades. Dishwasher-safe parts.",
+  "stars": 4.5,
+  "reviews": 18,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#FF9999",
+      "amount": 10
+    },
+    {
+      "size": "sm",
+      "color": "#FFCCCC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "sm"],
+    "colors": ["#FF9999", "#FFCCCC", "#FFDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "food processor", "versatile"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-alex-qian-1180283-2343467.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-alex-qian-1180283-2343467.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-alex-qian-1180283-2343467.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-alex-qian-1180283-2343467.jpg"
+  ]
+},
+{
+  "id": 22,
+  "sku": "ap022",
+  "title": "Electric Coffee Grinder",
+  "brief_description": "Freshly Ground Coffee at Home",
+  "price": 40,
+  "discount_percentage": 5,
+  "new": false,
+  "description": "Grind coffee beans to perfection with our electric coffee grinder.",
+  "full_description": "Start your day with the aroma of freshly ground coffee using our electric coffee grinder. With adjustable grind settings and a powerful motor, it ensures consistent results for espresso, drip, or French press. The compact design and cord storage make it a convenient addition to any kitchen.",
+  "additional_information": "12-cup capacity. Stainless steel blades. Transparent lid for monitoring grind.",
+  "stars": 4.3,
+  "reviews": 22,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#666699",
+      "amount": 12
+    },
+    {
+      "size": "xs",
+      "color": "#9999CC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "xs"],
+    "colors": ["#666699", "#9999CC", "#CCCCFF"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "coffee grinder", "fresh coffee"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-david-yohanes-97693-1450903.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-david-yohanes-97693-1450903.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-david-yohanes-97693-1450903.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-david-yohanes-97693-1450903.jpg"
+  ]
+},
+{
+  "id": 23,
+  "sku": "ap023",
+  "title": "Electric Citrus Juicer",
+  "brief_description": "Effortless Juicing of Citrus Fruits",
+  "price": 25,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Extract fresh juice from citrus fruits with our electric citrus juicer.",
+  "full_description": "Enjoy the taste of freshly squeezed juice with our electric citrus juicer. Whether it's oranges, lemons, or grapefruits, it efficiently extracts juice with minimal effort. The auto-reversing reamer ensures maximum juice extraction, while the drip-free spout prevents messes on your countertop.",
+  "additional_information": "25-watt motor. BPA-free plastic parts. Detachable parts for easy cleaning.",
+  "stars": 4.7,
+  "reviews": 25,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#669999",
+      "amount": 10
+    },
+    {
+      "size": "md",
+      "color": "#99CCCC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md"],
+    "colors": ["#669999", "#99CCCC", "#CCDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "citrus juicer", "fresh juice"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-jvdm-1599791.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-jvdm-1599791.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-jvdm-1599791.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-jvdm-1599791.jpg"
+  ]
+},
+{
+  "id": 24,
+  "sku": "ap024",
+  "title": "Electric Ice Cream Maker",
+  "brief_description": "Homemade Ice Cream in Minutes",
+  "price": 70,
+  "discount_percentage": 10,
+  "new": true,
+  "description": "Create delicious homemade ice cream with our electric ice cream maker.",
+  "full_description": "Indulge in creamy, homemade ice cream with our electric ice cream maker. Simply add your favorite ingredients, and it churns them into frozen treats in minutes. The double-insulated freezer bowl eliminates the need for ice, while the easy-lock lid ensures mess-free operation.",
+  "additional_information": "1.5-quart capacity. Automatic shut-off feature. Removable mixing paddle and freezer bowl.",
+  "stars": 4.8,
+  "reviews": 30,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#FFCC33",
+      "amount": 8
+    },
+    {
+      "size": "sm",
+      "color": "#FF9900",
+      "amount": 6
+    }
+  ],
+  "types": {
+    "sizes": ["md", "sm"],
+    "colors": ["#FFCC33", "#FF9900", "#FFCC99"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "ice cream maker", "homemade ice cream"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-david-yohanes-97693-1450907.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-david-yohanes-97693-1450907.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-david-yohanes-97693-1450907.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-david-yohanes-97693-1450907.jpg"
+  ]
+},
+{
+  "id": 25,
+  "sku": "ap025",
+  "title": "Electric Rice Cooker",
+  "brief_description": "Perfectly Cooked Rice Every Time",
+  "price": 50,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Cook fluffy rice effortlessly with our electric rice cooker.",
+  "full_description": "Enjoy perfectly cooked rice without the hassle using our electric rice cooker. Whether it's white rice, brown rice, or even sushi rice, it ensures consistent results with just the push of a button. The non-stick inner pot and automatic keep-warm function make it ideal for busy households.",
+  "additional_information": "6-cup capacity. One-touch operation. Steaming basket included.",
+  "stars": 4.5,
+  "reviews": 28,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#99CC99",
+      "amount": 10
+    },
+    {
+      "size": "sm",
+      "color": "#66CC66",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["md", "sm"],
+    "colors": ["#99CC99", "#66CC66", "#CCFFCC"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "rice cooker", "fluffy rice"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-marta-dzedyshko-1042863-7451862.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-marta-dzedyshko-1042863-7451862.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-marta-dzedyshko-1042863-7451862.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/pexels-marta-dzedyshko-1042863-7451862.jpg"
+  ]
+},
+{
+  "id": 26,
+  "sku": "ap026",
+  "title": "Electric Slow Cooker",
+  "brief_description": "Slow Cooking Convenience",
+  "price": 60,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Prepare flavorful meals with our electric slow cooker.",
+  "full_description": "Experience the convenience of slow cooking with our electric slow cooker. Whether it's soups, stews, or roasts, it tenderizes meats and develops rich flavors with minimal effort. The programmable timer and keep-warm function ensure your meals are ready when you are.",
+  "additional_information": "6-quart capacity. Digital timer with LCD display. Removable stoneware pot for easy serving and cleaning.",
+  "stars": 4.7,
+  "reviews": 35,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#996699",
+      "amount": 12
+    },
+    {
+      "size": "md",
+      "color": "#CC99CC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "md"],
+    "colors": ["#996699", "#CC99CC", "#DDCCDD"]
+  },
+  "category": "kitchen",
+  "tags": ["appliance", "slow cooker", "convenience"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/rumman-amin-eIqO4P50MeY-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/rumman-amin-eIqO4P50MeY-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/rumman-amin-eIqO4P50MeY-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/appliance/rumman-amin-eIqO4P50MeY-unsplash.jpg"
+  ]
+},

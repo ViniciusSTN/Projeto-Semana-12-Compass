@@ -1,0 +1,451 @@
+{
+  "id": 2,
+  "sku": "cm001",
+  "title": "Espresso Maker",
+  "brief_description": "Compact Espresso Machine",
+  "price": 120,
+  "discount_percentage": 10,
+  "new": false,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4,
+  "reviews": 15,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#FFFFFF",
+      "amount": 10
+    },
+    {
+      "size": "md",
+      "color": "#CCCCCC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md"],
+    "colors": ["#FFFFFF", "#CCCCCC", "#DDDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "espresso", "compact"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/2/declan-cronin-6J1g2Ns9Xbk-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/2/declan-cronin-FDfaZFF8xHg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/2/super-snapper-N-VAH2TDeXk-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/2/super-snapper-8iaQ0zd4lsE-unsplash.jpg"
+  ]
+},
+{
+  "id": 3,
+  "sku": "cm002",
+  "title": "Drip Coffee Maker",
+  "brief_description": "Automatic Drip Coffee Machine",
+  "price": 80,
+  "discount_percentage": 5,
+  "new": true,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 3.5,
+  "reviews": 10,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#FFFFFF",
+      "amount": 15
+    },
+    {
+      "size": "lg",
+      "color": "#CCCCCC",
+      "amount": 6
+    }
+  ],
+  "types": {
+    "sizes": ["md", "lg"],
+    "colors": ["#FFFFFF", "#CCCCCC", "#DDDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "drip", "automatic"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/wilhelm-gunkel-QLIW3JoeMB4-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/wilhelm-gunkel-QLIW3JoeMB4-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/wilhelm-gunkel-QLIW3JoeMB4-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/wilhelm-gunkel-QLIW3JoeMB4-unsplash.jpg"
+  ]
+},
+{
+  "id": 4,
+  "sku": "cm003",
+  "title": "French Press",
+  "brief_description": "Classic French Coffee Press",
+  "price": 40,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4,
+  "reviews": 8,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#FFFFFF",
+      "amount": 10
+    }
+  ],
+  "types": {
+    "sizes": ["md"],
+    "colors": ["#FFFFFF", "#CCCCCC", "#DDDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "french press", "classic"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/declan-cronin-0aVDGglPI3U-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/declan-cronin-0aVDGglPI3U-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/declan-cronin-0aVDGglPI3U-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/declan-cronin-0aVDGglPI3U-unsplash.jpg"
+  ]
+},
+{
+  "id": 5,
+  "sku": "cm004",
+  "title": "Single Serve Coffee Maker",
+  "brief_description": "Convenient Single Cup Brewer",
+  "price": 60,
+  "discount_percentage": 15,
+  "new": true,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 3.5,
+  "reviews": 12,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#FFFFFF",
+      "amount": 12
+    },
+    {
+      "size": "md",
+      "color": "#CCCCCC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md"],
+    "colors": ["#FFFFFF", "#CCCCCC", "#DDDDDD"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "single serve", "convenient"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/nathan-dumlao-xPSBoaJNs2g-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/nathan-dumlao-xPSBoaJNs2g-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/nathan-dumlao-xPSBoaJNs2g-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/nathan-dumlao-xPSBoaJNs2g-unsplash.jpg"
+  ]
+},
+{
+  "id": 6,
+  "sku": "cm005",
+  "title": "Espresso Machine",
+  "brief_description": "Premium Espresso Maker",
+  "price": 150,
+  "discount_percentage": 10,
+  "new": false,
+  "description": "Indulge in rich and aromatic espresso with our premium espresso machine.",
+  "full_description": "Experience the art of coffee-making with our premium espresso machine. With its sleek design and advanced features, this machine allows you to brew barista-quality espresso in the comfort of your own home. Whether you prefer a single shot or a double shot, our espresso machine delivers consistently delicious results every time.",
+  "additional_information": "Package includes espresso machine, milk frother, and coffee accessories. Easy to clean and maintain. Designed for coffee enthusiasts.",
+  "stars": 4.6,
+  "reviews": 20,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#333333",
+      "amount": 6
+    },
+    {
+      "size": "lg",
+      "color": "#666666",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["md", "lg"],
+    "colors": ["#333333", "#666666", "#999999"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "espresso", "premium"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/yulia-matvienko-oL5gKIKmpdA-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/yulia-matvienko-oL5gKIKmpdA-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/yulia-matvienko-oL5gKIKmpdA-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/yulia-matvienko-oL5gKIKmpdA-unsplash.jpg"
+  ]
+},
+{
+  "id": 7,
+  "sku": "cm006",
+  "title": "French Press Coffee Maker",
+  "brief_description": "Classic Coffee Brewing",
+  "price": 25,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Enjoy the traditional method of French press coffee brewing.",
+  "full_description": "Experience the rich and full-bodied flavor of French press coffee with our classic coffee maker. Made from high-quality materials, this coffee maker is designed to withstand daily use while delivering exceptional results. Simply add your favorite coffee grounds and hot water, press down the plunger, and enjoy delicious coffee in minutes.",
+  "additional_information": "Package includes French press coffee maker and instruction manual. Dishwasher safe. Perfect for coffee enthusiasts.",
+  "stars": 4.5,
+  "reviews": 15,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#663300",
+      "amount": 10
+    },
+    {
+      "size": "lg",
+      "color": "#996633",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["md", "lg"],
+    "colors": ["#663300", "#996633", "#CC9966"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "french press", "classic"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/shml-shma-Ir_4jzYraE8-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/shml-shma-Ir_4jzYraE8-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/shml-shma-Ir_4jzYraE8-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/shml-shma-Ir_4jzYraE8-unsplash.jpg"
+  ]
+},
+{
+  "id": 8,
+  "sku": "cm007",
+  "title": "Pour Over Coffee Maker",
+  "brief_description": "Handcrafted Coffee Brewing",
+  "price": 30,
+  "discount_percentage": 5,
+  "new": false,
+  "description": "Experience the art of handcrafted coffee brewing with our pour over coffee maker.",
+  "full_description": "Elevate your coffee brewing experience with our pour over coffee maker. Handcrafted from premium borosilicate glass, this coffee maker allows you to control every aspect of the brewing process, resulting in a rich and flavorful cup of coffee every time. Simply place the coffee grounds in the filter, pour hot water over them in a circular motion, and savor the aroma and taste of freshly brewed coffee.",
+  "additional_information": "Package includes pour over coffee maker and reusable stainless steel filter. Easy to clean and maintain. Ideal for coffee aficionados.",
+  "stars": 4.8,
+  "reviews": 18,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#336699",
+      "amount": 12
+    },
+    {
+      "size": "md",
+      "color": "#003366",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md"],
+    "colors": ["#336699", "#003366", "#6699CC"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "pour over", "handcrafted"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/andy-k-XHedS4EFUmg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/andy-k-XHedS4EFUmg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/andy-k-XHedS4EFUmg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/andy-k-XHedS4EFUmg-unsplash.jpg"
+  ]
+},
+{
+  "id": 9,
+  "sku": "cm008",
+  "title": "Cold Brew Coffee Maker",
+  "brief_description": "Refreshing Cold Brew",
+  "price": 35,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Savor the smooth and refreshing taste of cold brew coffee.",
+  "full_description": "Beat the heat with our cold brew coffee maker. Designed for simplicity and convenience, this coffee maker allows you to effortlessly brew smooth and refreshing cold brew coffee at home. Simply add your favorite coffee grounds and cold water to the pitcher, let it steep in the refrigerator overnight, and enjoy delicious cold brew coffee in the morning.",
+  "additional_information": "Package includes cold brew coffee maker and removable filter. Dishwasher safe. Perfect for coffee lovers.",
+  "stars": 4.7,
+  "reviews": 20,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#000000",
+      "amount": 10
+    },
+    {
+      "size": "xl",
+      "color": "#333333",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["lg", "xl"],
+    "colors": ["#000000", "#333333", "#666666"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "cold brew", "refreshing"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/jonathan-borba-ZfyZ14gd2FM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/jonathan-borba-ZfyZ14gd2FM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/jonathan-borba-ZfyZ14gd2FM-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/jonathan-borba-ZfyZ14gd2FM-unsplash.jpg"
+  ]
+},
+{
+  "id": 10,
+  "sku": "cm009",
+  "title": "Automatic Drip Coffee Maker",
+  "brief_description": "Efficient Coffee Brewing",
+  "price": 40,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Enjoy hassle-free coffee brewing with our automatic drip coffee maker.",
+  "full_description": "Start your day right with our automatic drip coffee maker. Featuring a programmable timer and brew strength selector, this coffee maker allows you to customize your coffee just the way you like it. The large capacity carafe ensures you have enough coffee to last throughout the morning, while the drip-free pour spout prevents messy spills.",
+  "additional_information": "Package includes automatic drip coffee maker and glass carafe. Easy to clean and maintain. Perfect for busy mornings.",
+  "stars": 4.6,
+  "reviews": 22,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#663399",
+      "amount": 12
+    },
+    {
+      "size": "lg",
+      "color": "#9933CC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["md", "lg"],
+    "colors": ["#663399", "#9933CC", "#CC66FF"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "drip", "automatic"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/declan-cronin-JK187yc6cRU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/declan-cronin-JK187yc6cRU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/declan-cronin-JK187yc6cRU-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/declan-cronin-JK187yc6cRU-unsplash.jpg"
+  ]
+},
+{
+  "id": 11,
+  "sku": "cm010",
+  "title": "Pod Coffee Machine",
+  "brief_description": "Convenient Pod Brewing",
+  "price": 80,
+  "discount_percentage": 10,
+  "new": true,
+  "description": "Experience the convenience of pod coffee brewing with our pod coffee machine.",
+  "full_description": "Simplify your mornings with our pod coffee machine. Compatible with a variety of coffee pods, this machine allows you to enjoy your favorite coffee with just the touch of a button. The compact design and rapid brewing technology make it perfect for small spaces and busy lifestyles.",
+  "additional_information": "Package includes pod coffee machine and sample coffee pods. Easy to use and clean. Ideal for coffee enthusiasts.",
+  "stars": 4.7,
+  "reviews": 25,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#FF6633",
+      "amount": 10
+    },
+    {
+      "size": "md",
+      "color": "#FF9900",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md"],
+    "colors": ["#FF6633", "#FF9900", "#FFCC00"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "pod", "convenient"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/domagoj-horak-NrhIumMVTxc-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/domagoj-horak-NrhIumMVTxc-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/domagoj-horak-NrhIumMVTxc-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/domagoj-horak-NrhIumMVTxc-unsplash.jpg"
+  ]
+},
+{
+  "id": 12,
+  "sku": "cm011",
+  "title": "Manual Espresso Machine",
+  "brief_description": "Authentic Espresso Brewing",
+  "price": 120,
+  "discount_percentage": 5,
+  "new": true,
+  "description": "Indulge in authentic espresso brewing with our manual espresso machine.",
+  "full_description": "Take control of your coffee brewing experience with our manual espresso machine. Crafted from durable stainless steel, this machine allows you to brew espresso just the way you like it. Whether you prefer a single shot or a double shot, our espresso machine delivers rich and flavorful espresso with every pour.",
+  "additional_information": "Package includes manual espresso machine and espresso accessories. Easy to operate and maintain. Perfect for coffee connoisseurs.",
+  "stars": 4.9,
+  "reviews": 30,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#006699",
+      "amount": 12
+    },
+    {
+      "size": "lg",
+      "color": "#0099CC",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["md", "lg"],
+    "colors": ["#006699", "#0099CC", "#00CCFF"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "espresso", "manual"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/nathan-dumlao-ioVRpz0gX5w-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/nathan-dumlao-ioVRpz0gX5w-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/nathan-dumlao-ioVRpz0gX5w-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/nathan-dumlao-ioVRpz0gX5w-unsplash.jpg"
+  ]
+},
+{
+  "id": 13,
+  "sku": "cm012",
+  "title": "Capsule Coffee Machine",
+  "brief_description": "Effortless Capsule Brewing",
+  "price": 90,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Enjoy hassle-free coffee brewing with our capsule coffee machine.",
+  "full_description": "Simplify your mornings with our capsule coffee machine. Designed for convenience, this machine uses pre-filled coffee capsules to deliver delicious coffee with minimal effort. The compact design and one-touch operation make it perfect for small kitchens and busy lifestyles.",
+  "additional_information": "Package includes capsule coffee machine and variety pack of coffee capsules. Easy to use and clean. Ideal for coffee lovers.",
+  "stars": 4.8,
+  "reviews": 28,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#FF3366",
+      "amount": 10
+    },
+    {
+      "size": "lg",
+      "color": "#FF6699",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["md", "lg"],
+    "colors": ["#FF3366", "#FF6699", "#FF99CC"]
+  },
+  "category": "kitchen",
+  "tags": ["coffee", "capsule", "effortless"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/skylar-michael-C48KDwIuZck-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/skylar-michael-C48KDwIuZck-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/skylar-michael-C48KDwIuZck-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/coffee+machine/others/skylar-michael-C48KDwIuZck-unsplash.jpg"
+  ]
+}

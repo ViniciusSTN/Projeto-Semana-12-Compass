@@ -40,7 +40,7 @@ export const ShoppingCart = ({ children }: ShoppingCartProps) => {
       
       {
         overlay && (
-          <div className="absolute z-50 top-0 right-0 bg-white font-Poppins">
+          <div className="absolute z-50 top-0 right-0 bg-white font-Poppins max-w-424px">
             <div className="py-7 pl-7 pr-10">
               <div className="flex justify-between">
                 <h3 className="font-semibold text-2xl">Shopping cart</h3>
@@ -54,15 +54,17 @@ export const ShoppingCart = ({ children }: ShoppingCartProps) => {
                   cartItems.length > 0 ? (
                     cartItems.map((item) => (
                       <div className="flex items-center justify-between" key={item.id}>
-                        <div className="h-24 w-24 flex items-center justify-center overflow-hidden rounded-lg mr-8">
-                          <img src={item.image} alt={item.title} className="h-full w-full object-cover" />
-                        </div>
-                        <div className="flex flex-col gap-2 mr-12">
-                          <h4 className="font-normal">{item.title}</h4>
-                          <div className="flex gap-4 items-center">
-                            <span className="font-light">{item.quantity}</span>
-                            <span className="font-light text-xs">x</span>
-                            <span className="text-goldenbrown font-medium text-xs">Rs. {item.price}</span>
+                        <div className="flex items-center">
+                          <div className="h-24 w-24 overflow-hidden rounded-lg">
+                            <img src={item.image} alt={item.title} className="h-full w-full object-cover" />
+                          </div>
+                          <div className="pl-8 flex flex-col gap-2 max-w-236px overflow-hidden">
+                            <h4 className="font-normal">{item.title}</h4>
+                            <div className="flex gap-4 items-center">
+                              <span className="font-light">{item.quantity}</span>
+                              <span className="font-light text-xs">x</span>
+                              <span className="text-goldenbrown font-medium text-xs">Rs. {item.price}</span>
+                            </div>
                           </div>
                         </div>
                         <button onClick={() => handleDeleteItem(item.id)}>

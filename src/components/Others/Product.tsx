@@ -59,12 +59,12 @@ export const Product = ({
     
 
       <div className="h-300px">
-        <img src={images[0]} alt={title} className="h-full object-cover" />
+        <img src={images[0]} alt={title} className="h-full w-full object-cover" />
       </div>
 
       <div className="bg-lightgray flex flex-col gap-3 pt-4 px-5 h-36">
-        <h4 className="font-Poppins font-semibold text-2xl text-darkgreen h-7 overflow-clip">{title}</h4>
-        <small className="font-Poppins font-medium text-gray100">{brief_description}</small>
+        <h4 className="font-Poppins font-semibold text-2xl text-darkgreen h-8 overflow-clip">{title}</h4>
+        <small className="font-Poppins font-medium text-gray100 whitespace-nowrap overflow-clip">{brief_description}</small>
         <div className="font-Poppins flex gap-4 items-end">
           <span className="font-semibold text-xl text-darkgreen">Rp {finalPrice.toFixed(2)}</span>
           <span className="line-through font-normal text-silver">Rp {price.toFixed(2)}</span>

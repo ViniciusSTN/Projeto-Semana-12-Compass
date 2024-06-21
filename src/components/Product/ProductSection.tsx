@@ -124,7 +124,7 @@ export const ProductSection = ({ product }: ProductSectionProps) => {
             product.types.colors.map((color, index) => (
               <button 
                 key={index} 
-                className={`h-8 w-8 relative rounded-full text-sm ${colorActive === color && 'outline outline-2 outline-blue-700'}`} 
+                className={`h-8 w-8 relative rounded-full border border-gray100 text-sm ${colorActive === color && 'outline outline-2 outline-blue-700'}`} 
                 style={{ backgroundColor: color }} 
                 onClick={() => handleColorActivation(color)}
                 disabled={sizeActive ? isButtonDisabled(sizeActive, color) : false}

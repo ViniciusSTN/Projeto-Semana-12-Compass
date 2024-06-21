@@ -1,0 +1,401 @@
+{
+  "id": 1,
+  "sku": "pl001",
+  "title": "Elegant White Dinner Plate",
+  "brief_description": "Classic white dinner plate",
+  "price": 10,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.5,
+  "reviews": 5,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#FFFFFF",
+      "amount": 12
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#FFFFFF"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "dinner", "white"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-sydney-troxell-223521-708587.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-sydney-troxell-223521-708587.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-sydney-troxell-223521-708587.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-sydney-troxell-223521-708587.jpg"
+  ]
+},
+{
+  "id": 2,
+  "sku": "pl002",
+  "title": "Modern Square Salad Plate",
+  "brief_description": "Sleek square salad plate",
+  "price": 8,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.7,
+  "reviews": 8,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#A9A9A9",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#A9A9A9"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "salad", "square"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-chiecharon-970104.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-chiecharon-970104.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-chiecharon-970104.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-chiecharon-970104.jpg"
+  ]
+},
+{
+  "id": 3,
+  "sku": "pl003",
+  "title": "Vintage Floral Dessert Plate",
+  "brief_description": "Charming vintage floral plate",
+  "price": 12,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.2,
+  "reviews": 6,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#D2B48C",
+      "amount": 10
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#D2B48C"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "dessert", "floral"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-valeriya-1247677.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-valeriya-1247677.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-valeriya-1247677.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-valeriya-1247677.jpg"
+  ]
+},
+{
+  "id": 4,
+  "sku": "pl004",
+  "title": "Rustic Ceramic Dinner Plate",
+  "brief_description": "Charming rustic ceramic plate",
+  "price": 15,
+  "discount_percentage": 10,
+  "new": false,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.8,
+  "reviews": 12,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#8B4513",
+      "amount": 7
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#8B4513"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "ceramic", "rustic"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-pixabay-51163.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-pixabay-51163.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-pixabay-51163.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-pixabay-51163.jpg"
+  ]
+},
+{
+  "id": 5,
+  "sku": "pl005",
+  "title": "Minimalist Black Dinner Plate",
+  "brief_description": "Sleek minimalist black plate",
+  "price": 12,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.9,
+  "reviews": 15,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#000000",
+      "amount": 10
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#000000"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "dinner", "black"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/mockup-graphics-CTUrsRRZn20-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/mockup-graphics-CTUrsRRZn20-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/mockup-graphics-CTUrsRRZn20-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/mockup-graphics-CTUrsRRZn20-unsplash.jpg"
+  ]
+},
+{
+  "id": 6,
+  "sku": "pl006",
+  "title": "Colorful Ceramic Dessert Plate Set",
+  "brief_description": "Vibrant ceramic dessert plates",
+  "price": 20,
+  "discount_percentage": 15,
+  "new": false,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.6,
+  "reviews": 10,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#FF0000",
+      "amount": 6
+    },
+    {
+      "size": "sm",
+      "color": "#00FF00",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#FF0000", "#00FF00", "#0000FF"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "ceramic", "colorful"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/meghna-r-YmEoHKxhOqg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/meghna-r-YmEoHKxhOqg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/meghna-r-YmEoHKxhOqg-unsplash.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/meghna-r-YmEoHKxhOqg-unsplash.jpg"
+  ]
+},
+{
+  "id": 7,
+  "sku": "pl007",
+  "title": "Classic Porcelain Dinner Plate",
+  "brief_description": "Timeless porcelain dinner plate",
+  "price": 18,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.7,
+  "reviews": 9,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#FFFFFF",
+      "amount": 6
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#FFFFFF"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "porcelain", "classic"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-myfoodie-2611817.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-myfoodie-2611817.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-myfoodie-2611817.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-myfoodie-2611817.jpg"
+  ]
+},
+{
+  "id": 8,
+  "sku": "pl008",
+  "title": "Modern Geometric Salad Plate",
+  "brief_description": "Contemporary geometric salad plate",
+  "price": 14,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.6,
+  "reviews": 11,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#808080",
+      "amount": 8
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#808080"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "salad", "geometric"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-jamie-he-170821-563067.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-jamie-he-170821-563067.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-jamie-he-170821-563067.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-jamie-he-170821-563067.jpg"
+  ]
+},
+{
+  "id": 9,
+  "sku": "pl009",
+  "title": "Retro Floral Dinner Plate Set",
+  "brief_description": "Vintage floral dinner plates",
+  "price": 25,
+  "discount_percentage": 0,
+  "new": false,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.5,
+  "reviews": 7,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#FF69B4",
+      "amount": 9
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#FF69B4"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "floral", "retro"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-enginakyurt-1907642.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-enginakyurt-1907642.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-enginakyurt-1907642.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-enginakyurt-1907642.jpg"
+  ]
+},
+{
+  "id": 10,
+  "sku": "pl010",
+  "title": "Stylish Square Appetizer Plate",
+  "brief_description": "Chic square appetizer plate",
+  "price": 12,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.8,
+  "reviews": 14,
+  "availability": [
+    {
+      "size": "md",
+      "color": "#4682B4",
+      "amount": 5
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#4682B4"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "square", "appetizer"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-iina-luoto-460132-1211887.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-iina-luoto-460132-1211887.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-iina-luoto-460132-1211887.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-iina-luoto-460132-1211887.jpg"
+  ]
+},
+{
+  "id": 11,
+  "sku": "pl011",
+  "title": "Vintage Ceramic Dinner Plate",
+  "brief_description": "Charming vintage ceramic plate",
+  "price": 22,
+  "discount_percentage": 10,
+  "new": false,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.7,
+  "reviews": 12,
+  "availability": [
+    {
+      "size": "lg",
+      "color": "#A52A2A",
+      "amount": 6
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#A52A2A"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "ceramic", "vintage"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-lum3n-44775-1410235.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-lum3n-44775-1410235.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-lum3n-44775-1410235.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-lum3n-44775-1410235.jpg"
+  ]
+},
+{
+  "id": 12,
+  "sku": "pl012",
+  "title": "Elegant Gold Rim Dinner Plate",
+  "brief_description": "Sophisticated gold rim dinner plate",
+  "price": 28,
+  "discount_percentage": 0,
+  "new": true,
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "full_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.",
+  "additional_information": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, earum omnis! Unde, architecto molestias iusto itaque officiis placeat eius sequi eos repellendus a reiciendis, quaerat facere at similique ab voluptatibus.\nLorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "stars": 4.9,
+  "reviews": 16,
+  "availability": [
+    {
+      "size": "sm",
+      "color": "#FFD700",
+      "amount": 7
+    }
+  ],
+  "types": {
+    "sizes": ["sm", "md", "lg"],
+    "colors": ["#FFD700"]
+  },
+  "category": "kitchen",
+  "tags": ["plate", "gold rim", "elegant"],
+  "images": [
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-wdnet-291767.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-wdnet-291767.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-wdnet-291767.jpg",
+    "https://project3-images-storage.s3.us-east-2.amazonaws.com/products/plate/pexels-wdnet-291767.jpg"
+  ]
+}
