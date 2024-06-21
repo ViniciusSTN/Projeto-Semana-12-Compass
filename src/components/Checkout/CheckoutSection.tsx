@@ -116,8 +116,8 @@ export const CheckoutSection = () => {
 
   return (
     <section>
-      <form className='flex justify-between flex-wrap gap-6 py-16 px-24 font-Poppins' onSubmit={handleFormSubmit}>
-        <div className='flex-grow max-w-608px px-76px py-9'>
+      <form className='flex justify-between flex-wrap gap-6 py-16 font-Poppins px-10 md:px-24' onSubmit={handleFormSubmit}>
+        <div className='flex-grow max-w-608px md:px-76px py-9'>
           <h3 className='font-semibold text-4xl mb-9'>Billing details</h3>
 
           <div className='flex flex-col gap-9 w-full font-medium'>
@@ -190,7 +190,7 @@ export const CheckoutSection = () => {
           </div>
         </div>
   
-        <div className='flex-grow max-w-608px py-16 px-9 flex flex-col gap-6'>
+        <div className='flex-grow max-w-608px py-16 md:px-9 flex flex-col gap-6'>
           <div className='flex justify-between items-center'>
             <p className='text-2xl font-medium'>Product</p>
             <p className='text-2xl font-medium'>Subtotal</p>

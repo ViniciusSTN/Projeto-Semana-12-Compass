@@ -8,9 +8,26 @@ import { ShoppingCartProps } from "../../types/shoppingCartSchemas"
 export const ShoppingCart = ({ children }: ShoppingCartProps) => {
   const [overlay, setOverlay] = useState<boolean>(false)
   const [totalCart, setTotalCart] = useState<number>(0)
+  const [mobile, setMobile] = useState<boolean>(false)
 
   const cartItems = useSelector((state: RootState) => state.shoppingCart.cartItems)
   const dispatch = useDispatch()
+
+  useEffect(() => {
+    function handleResize() {
+      const width = window.innerWidth
+
+      if (width < 768) setMobile(true)
+      else setMobile(false)
+    }
+
+    handleResize()
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
 
   useEffect(() => {
     const totalPrice = cartItems.reduce((acc, item) => acc + item.total, 0)
@@ -27,10 +44,19 @@ export const ShoppingCart = ({ children }: ShoppingCartProps) => {
 
   return (
     <>
-      <button className="font-Poppins font-medium flex flex-col gap-1 items-center" onClick={handleBtnClick}>
-        <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/carrinho.svg" alt="cart" /></i>
-        {children}
-      </button>
+      {
+        mobile ? (
+          <a href="/cart" className="font-Poppins font-medium flex flex-col gap-1 items-center">
+            <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/carrinho.svg" alt="cart" /></i>
+            {children}
+          </a>
+        ) : (
+          <button className="font-Poppins font-medium flex flex-col gap-1 items-center" onClick={handleBtnClick}>
+            <i><img src="https://project3-images-storage.s3.us-east-2.amazonaws.com/static/carrinho.svg" alt="cart" /></i>
+          </button>
+        )
+      }
+      
 
       {
         overlay && (
